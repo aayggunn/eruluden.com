@@ -1,0 +1,129 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anasayfa</title>
+    <link rel="stylesheet" href="ders_notu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="baslik">
+            <h1><a href="anasayfa.html">ERULUDEN</a></h1>
+
+           
+            <div class="navbar">
+                <ul>
+                    <li> <a class="aktif" href="anasayfa.php">
+                            <i class="fa-solid fa-house"></i>
+                            <label for="anasayfa" class="text"> Anasayfa</label>
+                        </a></li>
+                    <li><a href="ilanlar.php"> <i class="fa-solid fa-rectangle-ad"></i> <label for="ilanlar"
+                                class="text"> İlanlar</label></a>
+                    </li>
+                    <li><a href="duyurular_haberler.php"> <i class="fa-solid fa-bullhorn"></i> <label for="duyurular"
+                                class="text"> Duyurular-Haberler</label> </a> </li>
+                    <li><a href="ders_notu.php"> <i class="fa-regular fa-note-sticky"></i> <label for="sorular"
+                                class="text"> Notlar</label></a> </li>
+                    <li><a href="kampus.php"> <i class="fa-regular fa-building"></i><label for="kampus" class="text">
+                                Kampus-Yurtlar</label>
+                        </a></li>
+                </ul>
+            </div>
+            <nav class="sidebar close">
+                <div class="logo-part">
+
+                    <img src="logo1.jpg" alt="profil resmi">
+
+                </div>
+                    <header class="sider">
+                        <div class="image-text">
+                            <span class="image">
+                                <img src="Desert.jpg" alt="">
+                            </span>                      
+                        </div>
+                    </header>
+
+                    <div class="sidemenu">
+                        <div class="menu1">
+                            <ul class="menu-links">
+                                <li class="nav-link">
+                                    <a class="side" href="profil.php">
+                                        <i class="fa-regular fa-user icon"></i>
+                                        
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="side" href="mesaj_kutusu.php">
+                                        <i class="fa-solid fa-inbox icon"></i>                                        
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="side" href="arama_kutusu.php">
+                                    <i class="fa-solid fa-magnifying-glass icon"></i>  
+                                  </a>
+                                <li class="nav-link">
+                                    <a class="side" href="iletisim.php">
+                                        <i class="fa-solid fa-phone icon"></i>
+                                       
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="side" href="hakkimizda.php">
+                                        <i class="fa-solid fa-briefcase icon"></i>
+                                        
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="side" href="cikis.php">
+                                        <i class="fa-solid fa-xmark icon"></i>
+                                       
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            <article class="alan">
+                <div class="kutu">
+                    <div class="not-kutu">
+                        <a href = "ders_notu_yukle.php"><div class="buton">
+                            <input type="submit" class="btn" value="Dosya Yükle " name="ekle"><i class="fa-solid fa-file-arrow-up"></i></input>
+                        </div></a>
+                        <div class="notlar">
+                            <div class="not-listesi">
+                                <div class="pdf">
+                                    <i class="fa-regular fa-file-pdf"></i>
+                                 
+                                  
+                                </div>
+                                <div class="not">
+                                    <i>Yüklenme Tarihi</i>
+                                    <p>Başlık</p>
+                                    <div class="not-btn">
+                                        <a href="">Dosya İndir<i class="fa-regular fa-circle-down"></i></a>
+                                        <a href="">Dosya Görüntüle<i class="fa-regular fa-file"></i></a>
+                                    </div>
+                                    </div>
+                                    
+                              
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </article>
+
+    </div>
+
+  
+</body>
+
+</html>

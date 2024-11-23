@@ -1,0 +1,1746 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+
+    /**/
+    --text-color: #fff;
+    --back-color: dodgerblue;
+
+
+    /*TRANSİTİON*/
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.4s ease;
+    --tran-05: all 0.5s ease;
+
+}
+
+.wrapper {
+    width: 100%;
+    margin-top: 0;
+}
+
+header.baslik {
+    width: 100%;
+    background-color: dodgerblue;
+    height: 150px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+
+}
+
+header.baslik h1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header.baslik h1 a {
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+.navbar {
+    background-color: dodgerblue;
+    height: 70px;
+    width: 100%;
+    margin-top: -5px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap
+    
+
+}
+
+
+
+.navbar ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    
+}
+
+.navbar ul li a {
+    width: max-content;
+    line-height: 70px;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+
+
+.navbar ul li a:hover {
+    background-color: white;
+    color: dodgerblue;
+    transition-duration: 0.5s;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.logo-part {
+    width: 70px;
+    height: 70px;
+   
+
+
+}
+
+.logo-part img {
+    width: 70px;
+    height: 70px;
+}
+
+label.baslik {
+    margin-left: 20px;
+}
+
+article.alan {
+    padding-left: 0px;
+    width: 100%;
+    height: max-content;
+}
+
+.kutular {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ilan {
+    width: 600px;
+    height: 700px;
+    border: 2px solid transparent; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.ilan h3 {
+    width: 100%;
+    height: 80px;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+
+
+}
+
+.ilan a {
+    margin-left: 380px;
+    font-size: 12px;
+    text-decoration: underline;
+    color: #666;
+}
+
+.ikinci {
+    width: 600px;
+    height: 700px;
+    border: 2px solid transparent; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.ikinci h3 {
+
+    width: 100%;
+    height: 80px;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+}
+
+.ikinci a {
+    margin-left: 330px;
+    font-size: 12px;
+    text-decoration: underline;
+    color: #666;
+}
+
+.ucuncu {
+    width: 600px;
+    height: 700px;
+    border: 2px solid transparent; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.ucuncu h3 {
+    width: 100%;
+    height: 80px;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+
+
+}
+
+.ucuncu a {
+    margin-left: 350px;
+    font-size: 12px;
+    text-decoration: underline;
+    color: #666;
+}
+
+.yemekhane {
+    width: 600px;
+    height: 700px;
+    border: 2px solid transparent; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.yemekhane h3 {
+    width: 100%;
+    
+    font-size: 30px;
+    line-height: 90px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+
+}
+
+.burs-kutu {
+    width: 600px;
+    height: 700px;
+    border: 2px solid transparent; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.burs-kutu h3 {
+    width: 100%;
+    height: 80px;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+
+
+}
+
+.burs-kutu a {
+    margin-left: 350px;
+    font-size: 12px;
+    text-decoration: underline;
+    color: #666;
+}
+
+
+.alt a.f {
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.duyuru a.f {
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.haber a.f {
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.burs a.f {
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.alt {
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.duyuru {
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.haber {
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.yemek {
+    margin-top: 0px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.burs {
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.alt iframe {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+
+}
+
+.duyuru iframe {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.haber iframe {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+
+}
+
+.yemek iframe {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+
+}
+
+.burs iframe {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+
+}
+
+
+
+
+
+@media (max-width:1340px) {
+
+
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 20px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 17px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    .sidebar li {
+        height: 68px;
+        background-color: dodgerblue;
+        margin-top: 20px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+
+    }
+
+    .sidebar .sidemenu {
+        margin-top: 10px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+}
+
+@media (max-width:1240px) {
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 15px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 17px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    header.baslik {
+        width: 100%;
+        background-color: dodgerblue;
+        height: 90px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 a {
+        font-size: 40px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+   
+
+    .logo-part {
+        width: 60px;
+        height: 60px;
+        
+       
+    
+    
+    }
+    
+    .logo-part img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+
+@media (max-width:1140px) {
+
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 10px;
+       
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+
+}
+
+@media (max-width:920px) {
+
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+       
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+
+}
+
+
+@media(max-width:870px){
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 0px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+}
+
+@media(max-width:768px){
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 10px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    label.text{
+        display: none;
+    }
+
+    .ilan {
+        width: 300px;
+        height: 700px;
+        
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    .ilan h3 {
+        width: 100%;
+        height: 80px;
+        font-size: 30px;
+        margin-top: 40px;
+        margin-left: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+       
+    
+    
+    }
+    
+    .ilan a {
+        margin-left: 80px;
+        font-size: 12px;
+        text-decoration: underline;
+        
+    }
+    
+    .ikinci {
+        width: 300px;
+        height: 700px;
+        
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    
+    }
+    
+    .ikinci h3 {
+    
+        width: 100%;
+        height: 80px;
+        font-size: 30px;
+        margin-top: 40px;
+        margin-left: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+       
+    
+    }
+    
+    .ikinci a {
+        margin-left: 30px;
+        font-size: 12px;
+        text-decoration: underline;
+        
+    }
+    
+    .ucuncu {
+        width: 300px;
+        height: 700px;
+        
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    .ucuncu h3 {
+        width: 100%;
+        height: 80px;
+        font-size: 30px;
+        margin-top: 40px;
+        margin-left: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    
+    
+    }
+    
+    .ucuncu a {
+        margin-left: 50px;
+        font-size: 12px;
+        text-decoration: underline;
+        
+    }
+    
+    .yemekhane {
+        width: 300px;
+        height: 700px;
+       
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    .yemekhane h3 {
+        width: 100%;
+        
+        font-size: 25px;
+        
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    
+    .burs-kutu {
+        width: 300px;
+        height: 700px;
+       
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    .burs-kutu h3 {
+        width: 100%;
+        height: 80px;
+        font-size: 30px;
+        margin-top: 40px;
+        margin-left: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+       
+    
+    
+    }
+    
+    .burs-kutu a {
+        margin-left: 50px;
+        font-size: 12px;
+        text-decoration: underline;
+       
+    }
+    
+    
+    .alt a.f {
+        margin-top: 0px;
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .duyuru a.f {
+        margin-top: 0px;
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .haber a.f {
+        margin-top: 0px;
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    
+    .burs a.f {
+        margin-top: 0px;
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+}
+
+@media(max-width:690px){
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 0px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 13px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+
+    label.text{
+        display: none;
+    }
+
+}
+
+@media(max-width:600px){
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 10px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+    header.baslik {
+        width: 100%;
+        background-color: dodgerblue;
+        height: 90px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 a {
+        font-size: 40px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    label.text{
+        display: none;
+    }
+
+    .logo-part {
+        width: 60px;
+        height: 60px;
+        
+       
+    
+    
+    }
+    
+    .logo-part img {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media(max-width:500px){
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 10px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    label.text{
+        display: none;
+    }
+
+}
+
+
+
+@media (max-width:430px) {
+
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 5px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 12px;
+       
+
+    }
+
+    header.baslik {
+        width: 100%;
+        background-color: dodgerblue;
+        height: 90px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 a {
+        font-size: 25px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    label.text{
+        display: none;
+    }
+
+    .logo-part {
+        width: 45px;
+        height: 45px;
+        
+       
+    
+    
+    }
+    
+    .logo-part img {
+        width: 100%;
+        height: 100%;
+    }
+   
+
+    article.alan {
+        margin-left: 0px;
+        width: 100%;
+        height: max-content;
+    }
+
+    label.baslik {
+        margin-left: 30px;
+    }
+
+
+    .ilan {
+        width: 270px;
+        height: 720px;
+        
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+
+    }
+
+    .ilan h3 {
+        width: 100%;
+        height: 50px;
+        font-size: 20px;
+        margin-top: 40px;
+        margin-left: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+
+    }
+
+    .ilan a {
+        margin-left: 50px;
+        font-size: 12px;
+        text-decoration: underline;
+        
+    }
+
+    .ikinci {
+        width: 270px;
+        height: 700px;
+        
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+    }
+
+    .ikinci h3 {
+
+        width: 100%;
+        height: 50px;
+        font-size: 20px;
+        margin-top: 40px;
+        margin-left: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+
+    }
+
+    .ikinci a {
+        margin-left: 30px;
+        font-size: 12px;
+        text-decoration: underline;
+      
+    }
+
+    .ucuncu {
+        width: 270px;
+        height: 2800px;
+       
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .ucuncu h3 {
+        width: 100%;
+        height: 50px;
+        font-size: 20px;
+        margin-top: 40px;
+        margin-left: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+       
+
+
+    }
+
+    .ucuncu a {
+        margin-left: 40px;
+        font-size: 12px;
+        text-decoration: underline;
+       
+    }
+
+    .yemekhane {
+
+        width: 270px;
+        height: 200px;
+       
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+
+    }
+
+    .yemekhane h3 {
+        width: 100%;
+        margin-top: 0;
+       font-size: 20px;
+        
+        margin-left: 0px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+       
+    }
+
+    .burs-kutu {
+        width: 270px;
+        height: 400px;
+        
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .burs-kutu h3 {
+        width: 100%;
+        height: 50px;
+        font-size: 20px;
+        margin-top: 40px;
+        margin-left: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+
+
+    }
+
+    .burs-kutu a {
+        margin-left: 40px;
+        font-size: 12px;
+        text-decoration: underline;
+        
+    }
+
+    .alt {
+        margin-top: 0px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .duyuru {
+        margin-top: 0px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .haber {
+        margin-top: 0px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .yemek {
+        margin-top: 0px;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .burs {
+        margin-top: 0px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .alt iframe {
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+
+    }
+
+    .duyuru iframe {
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+    }
+
+    .haber iframe {
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+
+    }
+
+    .yemek iframe {
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+
+    }
+
+    .burs iframe {
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+
+    }
+
+
+}
+
+@media (max-width:375px) {
+
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 10px;
+       
+
+    }
+
+    header.baslik {
+        width: 100%;
+        background-color: dodgerblue;
+        height: 70px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 a {
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    
+    .logo-part {
+        width: 35px;
+        height: 35px;
+        
+       
+    
+    
+    }
+    
+    .logo-part img {
+        width: 100%;
+        height: 100%;
+    }
+   
+    label.baslik{
+        margin-left: 5px;
+    }
+
+    .ilan {
+        width: 200px;
+        height: 800px;
+       
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+
+    }
+
+    .ilan h3 {
+        width: 100%;
+        height: 80px;
+        font-size: 17px;
+        margin-top: 40px;
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+       
+
+
+    }
+
+    .ilan a {
+        margin-left: 60px;
+        font-size: 10px;
+        text-decoration: underline;
+        
+    }
+
+    .ikinci {
+        width: 200px;
+        height: 1000px;
+       
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+    }
+
+    .ikinci h3 {
+
+        width: 100%;
+        height: 80px;
+        font-size: 17px;
+        margin-top: 40px;
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+
+    }
+
+    .ikinci a {
+        margin-left: 30px;
+        font-size: 10px;
+        text-decoration: underline;
+        
+    }
+
+    .ucuncu {
+        width: 200px;
+        height: 1000px;
+        
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .ucuncu h3 {
+        width: 100%;
+        height: 80px;
+        font-size: 15px;
+        margin-top: 40px;
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+       
+
+
+    }
+
+    .ucuncu a {
+        margin-left: 50px;
+        font-size: 10px;
+        text-decoration: underline;
+        color: cadetblue;
+    }
+
+    .yemekhane {
+
+        width: 200px;
+        height: 300px;
+        
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+
+    }
+
+    .yemekhane h3 {
+        width: 100%;
+        line-height: 60px;
+        font-size: 17px;
+        margin-top: 0px;
+        margin-left: 0px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .burs-kutu {
+        width: 200px;
+        height: 400px;
+        
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .burs-kutu h3 {
+        width: 100%;
+        height: 80px;
+        font-size: 15px;
+        margin-top: 40px;
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+       
+
+
+    }
+
+    .burs-kutu a {
+        margin-left: 60px;
+        font-size: 10px;
+        text-decoration: underline;
+        
+    }
+
+    .alt {
+        width: 100%;
+        height: 550px;
+    }
+
+    .alt iframe {
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+
+    }
+
+
+
+
+
+}
+
+@media (max-width:336px) {
+
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 0px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 9px;
+       padding-left: 10px;
+       padding-right: 10px;
+
+    }
+
+    header.baslik {
+        width: 100%;
+        background-color: dodgerblue;
+        height: 70px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 a {
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    
+    .logo-part {
+        width: 35px;
+        height: 35px;
+        
+       
+    
+    
+    }
+    
+    .logo-part img {
+        width: 100%;
+        height: 100%;
+    }
+   
+
+    article.alan {
+        margin-left: 0px;
+        width: 100%;
+        height: max-content;
+    }
+
+    label.baslik {
+        margin-left: 0px;
+    }
+
+    .ilan {
+        width: 200px;
+        height: 700px;
+        
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+
+    }
+
+    .ilan h3 {
+        width: 100%;
+        height: 80px;
+        font-size: 17px;
+        margin-top: 40px;
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+       
+
+
+    }
+
+    .ilan a {
+        margin-left: 60px;
+        font-size: 10px;
+        text-decoration: underline;
+        
+    }
+
+    .ikinci {
+        width: 200px;
+        height: 700px;
+       
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+    }
+
+    .ikinci h3 {
+
+        width: 100%;
+        height: 80px;
+        font-size: 17px;
+        margin-top: 40px;
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+      
+
+    }
+
+    .ikinci a {
+        margin-left: 30px;
+        font-size: 10px;
+        text-decoration: underline;
+       
+    }
+
+    .ucuncu {
+        width: 200px;
+        height: 700px;
+        
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .ucuncu h3 {
+        width: 100%;
+        height: 80px;
+        font-size: 15px;
+        margin-top: 40px;
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+
+
+    }
+
+    .ucuncu a {
+        margin-left: 50px;
+        font-size: 10px;
+        text-decoration: underline;
+       
+    }
+
+    .yemekhane {
+
+        width: 200px;
+        height: 700px;
+     
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+
+    }
+
+
+
+    .burs-kutu {
+        width: 200px;
+        height: 700px;
+        
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .burs-kutu h3 {
+        width: 100%;
+        height: 80px;
+        font-size: 15px;
+        margin-top: 40px;
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+       
+
+
+    }
+
+    .burs-kutu a {
+        margin-left: 60px;
+        font-size: 10px;
+        text-decoration: underline;
+        
+    }
+
+    .alt {
+        width: 100%;
+        height: 550px;
+    }
+
+    .alt iframe {
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+
+    }
+
+
+
+}

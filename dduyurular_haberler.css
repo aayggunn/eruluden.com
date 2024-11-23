@@ -1,0 +1,1179 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+
+    /**/
+    --text-color: #fff;
+    --back-color: dodgerblue;
+
+
+    /*TRANSİTİON*/
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.4s ease;
+    --tran-05: all 0.5s ease;
+
+}
+
+.wrapper {
+    width: 100%;
+    margin-top: 0;
+}
+
+header.baslik {
+    width: 100%;
+    background-color: dodgerblue;
+    height: 150px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+
+}
+
+header.baslik h1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header.baslik h1 a {
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+.navbar {
+    background-color: dodgerblue;
+    height: 70px;
+    width: 100%;
+    margin-top: -5px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap
+    
+
+}
+
+
+
+.navbar ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    
+}
+
+.navbar ul li a {
+    width: max-content;
+    line-height: 70px;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+
+
+.navbar ul li a:hover {
+    background-color: white;
+    color: dodgerblue;
+    transition-duration: 0.5s;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.logo-part {
+    width: 70px;
+    height: 70px;
+   
+
+
+}
+
+.logo-part img {
+    width: 70px;
+    height: 70px;
+}
+
+label.baslik {
+    margin-left: 20px;
+}
+
+article.alan {
+    padding-left: 0px;
+    width: 100%;
+    height: max-content;
+}
+
+.ilan-kutu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ilan-kutu .yemekhane{
+    width: 600px;
+    height: 900px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+
+.ilan-kutu .ikinci{
+    width: 600px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 40px;
+    margin-bottom: 20px;
+    height: 1200px;
+
+}
+
+.ilan-kutu .ucuncu{
+    width: 600px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 40px;
+    margin-bottom: 20px;
+    height: 2000px;
+
+}
+
+
+.ilan-kutu h3  {
+    margin-left: 0px;
+    line-height: 80px;
+    font-size: 30px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.ilan-kutu  a{
+    color: #666;
+    text-decoration: underline;
+    font-size: 15px;
+    float: right;
+    padding-right: 20px;
+}
+
+.ilan-kutu  a.f{
+    color: #666;
+    text-decoration: underline;
+    font-size: 15px;
+    float: right;
+    padding-right: 20px;
+}
+
+.ilan-kutu .yemek {
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.ilan-kutu .duyuru {
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.ilan-kutu .haber {
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.ilan-kutu .yemek iframe {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+   
+}
+
+.ilan-kutu .duyuru iframe {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+   
+}
+
+.ilan-kutu .haber iframe {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+   
+}
+
+.ilan-kutu label.p{
+    margin-left: 30px;
+}
+
+
+
+@media (max-width:1340px){
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 20px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 17px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    .sidebar li {
+        height: 50px;
+        background-color: dodgerblue;
+        margin-top: 20px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    
+    }
+
+    .sidebar .sidemenu {
+        margin-top: 10px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+}
+
+@media (max-width:1240px){
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 15px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 17px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+   
+
+    .ilan-kutu .yemekhane{
+        
+        
+        border-radius: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .ilan-kutu .ikinci{
+        
+       
+        border-radius: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .ilan-kutu .ucuncu{
+        
+       
+        border-radius: 40px;
+        margin-bottom: 20px;
+    }
+
+    .ilan-kutu h3  {
+        margin-left: 0px;
+        line-height: 80px;
+        font-size: 30px;
+        
+        padding-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        padding-bottom: 20px;
+        align-items: center;
+    }
+    
+    .ilan-kutu label.p{
+        margin-left: 30px;
+    }
+    
+    .ilan-kutu .alt {
+        width: 100%;
+        height: 1500px;
+        
+    
+    }
+    
+    .ilan-kutu .alt iframe {
+        width: 100%;
+        height: 1470px;
+        pointer-events: none;
+       
+    }
+    
+    
+    .ilan-kutu  a{
+        
+        text-decoration: underline;
+        font-size: 15px;
+        
+    }
+    
+
+    
+}
+
+@media (max-width:1140px){
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 10px;
+       
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .ilan-kutu .yemekhane{
+        
+       
+        border-radius: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .ilan-kutu .ikinci{
+        
+        
+        border-radius: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .ilan-kutu .ucuncu{
+        
+        
+        border-radius: 40px;
+        margin-bottom: 20px;
+    }
+
+    .ilan-kutu h3  {
+        margin-left: 0px;
+        line-height: 80px;
+        font-size: 25px;
+        
+        padding-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+       
+        padding-bottom: 20px;
+        align-items: center;
+    }
+    
+    .ilan-kutu label.p{
+        margin-left: 30px;
+    }
+    
+    .ilan-kutu .alt {
+        width: 100%;
+        height: 1500px;
+        
+    
+    }
+    
+    .ilan-kutu .alt iframe {
+        width: 100%;
+        height: 1470px;
+        pointer-events: none;
+       
+    }
+    
+    
+    .ilan-kutu  a{
+        
+        text-decoration: underline;
+        font-size: 15px;
+        
+    }
+    
+  
+    
+}
+
+@media (max-width:920px) {
+
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+       
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+
+}
+@media(max-width:870px){
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 0px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+}
+
+@media(max-width:768px){
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 10px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    label.text{
+        display: none;
+    }
+
+    .ilan-kutu  a{
+        
+        text-decoration: underline;
+        font-size: 10px;
+        margin-left: 30px;
+    }
+ 
+
+}
+
+@media(max-width:690px){
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 0px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 13px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+    label.text{
+        display: none;
+    }
+
+    .ilan-kutu .yemekhane{
+        width:270px;
+        
+        border-radius: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .ilan-kutu .ikinci{
+        width: 270px;
+       
+        border-radius: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .ilan-kutu .ucuncu{
+        width: 270px;
+        
+        border-radius: 40px;
+        margin-bottom: 20px;
+    }
+
+    .ilan-kutu  a{
+        
+        text-decoration: underline;
+        font-size: 12px;
+        margin-left: 30px;
+    }
+
+    .ilan-kutu  a.f{
+        
+        text-decoration: underline;
+        font-size: 12px;
+        margin-left: 30px;
+    }
+
+    .ilan-kutu label.p{
+        margin-left: 10px;
+    }
+
+}
+
+@media(max-width:600px){
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 10px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+    header.baslik {
+        width: 100%;
+        background-color: dodgerblue;
+        height: 90px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 a {
+        font-size: 40px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    label.text{
+        display: none;
+    }
+
+    .logo-part {
+        width: 60px;
+        height: 60px;
+        
+       
+    
+    
+    }
+    
+    .logo-part img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+
+@media(max-width:500px){
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 10px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    label.text{
+        display: none;
+    }
+
+}
+
+
+@media (max-width:430px){
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 5px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 12px;
+       
+
+    }
+
+    header.baslik {
+        width: 100%;
+        background-color: dodgerblue;
+        height: 90px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 a {
+        font-size: 25px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    label.text{
+        display: none;
+    }
+
+    .logo-part {
+        width: 45px;
+        height: 45px;
+        
+       
+    
+    
+    }
+    
+    .logo-part img {
+        width: 100%;
+        height: 100%;
+    }
+    article.alan {
+        padding-left: 0px;
+        width: 100%;
+        height: max-content;
+    }
+
+
+
+
+    .ilan-kutu .yemekhane{
+        width: 270px;
+        height: 600px;
+       
+        border-radius: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .ilan-kutu .ikinci{
+        width: 270px;
+        height: 700px;
+        
+        border-radius: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .ilan-kutu .ucuncu{
+        width: 270px;
+        height: 2800px;
+        
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .ilan-kutu h3  {
+        margin-left: 0px;
+        line-height: 40px;
+        font-size: 15px;
+        
+        padding-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        padding-bottom: 20px;
+        align-items: center;
+    }
+    
+    .ilan-kutu label.p{
+        margin-left: 10px;
+        
+    }
+    
+    .ilan-kutu .yemek {
+        margin-top: 0px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    
+    }
+    .ilan-kutu .duyuru {
+        margin-top: 0px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    
+    }
+    
+    .ilan-kutu .haber {
+        margin-top: 0px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    
+    }
+    
+    .ilan-kutu .yemek iframe {
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+       
+    }
+    
+    .ilan-kutu .duyuru iframe {
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+       
+    }
+    
+    .ilan-kutu .haber iframe {
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+       
+    }
+    
+    
+    .ilan-kutu  a{
+       
+        text-decoration: underline;
+        font-size: 10px;
+        margin-left: 80px;
+    }
+
+    .ilan-kutu  a.f{
+        
+        text-decoration: underline;
+        font-size: 10px;
+        margin-left: 110px;
+    }
+    
+
+}
+
+@media (max-width:375px){
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 10px;
+       
+
+    }
+
+    header.baslik {
+        width: 100%;
+        background-color: dodgerblue;
+        height: 70px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 a {
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    
+    .logo-part {
+        width: 35px;
+        height: 35px;
+        
+       
+    
+    
+    }
+    
+    .logo-part img {
+        width: 100%;
+        height: 100%;
+    }
+
+    label.text {
+        display: none;
+    }
+    article.alan {
+        padding-left: 0px;
+        width: 100%;
+        height: max-content;
+    }
+
+
+    .ilan-kutu .yemekhane{
+        width: 270px;
+        
+        border-radius: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .ilan-kutu .ikinci{
+        width: 270px;
+       
+        border-radius: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .ilan-kutu .ucuncu{
+        width: 270px;
+       
+        border-radius: 40px;
+        margin-bottom: 20px;
+    }
+
+    .ilan-kutu h3  {
+        margin-left: 0px;
+        line-height: 40px;
+        font-size: 12px;
+        
+        padding-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+       
+        padding-bottom: 20px;
+        align-items: center;
+    }
+    
+    .ilan-kutu label.p{
+        margin-left: 10px;
+        
+    }
+    
+    .ilan-kutu .alt {
+        width: 100%;
+        height: 1500px;
+        
+    
+    }
+    
+    .ilan-kutu .alt iframe {
+        width: 100%;
+        height: 1470px;
+        pointer-events: none;
+       
+    }
+    
+    
+    .ilan-kutu  a{
+        
+        text-decoration: underline;
+        font-size: 10px;
+        margin-left: 80px;
+    }
+    
+ 
+}
+
+@media (max-width:336px){
+    
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 0px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 9px;
+       padding-left: 10px;
+       padding-right: 10px;
+
+    }
+
+    header.baslik {
+        width: 100%;
+        background-color: dodgerblue;
+        height: 70px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 a {
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    
+    .logo-part {
+        width: 35px;
+        height: 35px;
+        
+       
+    
+    
+    }
+    
+    .logo-part img {
+        width: 100%;
+        height: 100%;
+    }
+   
+
+    article.alan {
+        padding-left: 0px;
+        width: 100%;
+        height: max-content;
+    }
+
+    label.text {
+        display: none;
+    }
+
+
+
+    .ilan-kutu .yemekhane{
+        width: 250px;
+        
+        border-radius: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .ilan-kutu .ikinci{
+        width: 250px;
+       
+        border-radius: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .ilan-kutu .ucuncu{
+        width: 250px;
+        
+        border-radius: 40px;
+        margin-bottom: 20px;
+    }
+
+    .ilan-kutu h3  {
+        margin-left: 0px;
+        line-height: 40px;
+        font-size: 12px;
+        
+        padding-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        padding-bottom: 20px;
+        align-items: center;
+    }
+    
+    .ilan-kutu label.p{
+        margin-left: 10px;
+        
+    }
+    
+    .ilan-kutu .alt {
+        width: 100%;
+        height: 1500px;
+        
+    
+    }
+    
+    .ilan-kutu .alt iframe {
+        width: 100%;
+        height: 1470px;
+        pointer-events: none;
+       
+    }
+    
+    
+    .ilan-kutu  a{
+       
+        text-decoration: underline;
+        font-size: 10px;
+        margin-left: 80px;
+    }
+    
+    
+}

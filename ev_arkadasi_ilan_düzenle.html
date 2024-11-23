@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erülüden | Anasayfa</title>
+	<link rel="icon" href="logo1.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="ev_arkadasi_ilan_duzenle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="baslik">
+            <h1><a href="anasayfa.php">ERULUDEN</a></h1>
+       
+            <nav class="menu">
+                <ul>
+                    <li> <a class="aktif" href="anasayfa.php">
+                            <i class="fa-solid fa-house"></i>
+                            <label for="anasayfa" class="text">Anasayfa</label>
+                        </a></li>
+
+                    <li><a href="ilanlar.php"> <i class="fa-solid fa-rectangle-ad"></i> <label
+                                for="ilanlar" class="text">İlanlar</label></a>                    
+                    </li>
+                    <li><a href="duyurular_haberler.php"> <i class="fa-solid fa-bullhorn"></i> <label for="duyurular"
+                                class="text">Duyurular-Haberler</label> </a> </li>
+                    <li><a href="ders_notu.php"> <i class="fa-regular fa-note-sticky"></i> <label for="sorular"
+                                class="text">Notlar</label></a> </li>
+                    <li><a href="kampus.php"> <i class="fa-regular fa-building"></i><label for="kampus" class="text">
+                                Kampüs-Yurtlar</label>
+                        </a></li>
+
+                </ul>
+            </nav>
+            <section class="bolum1">
+                <nav class="sidebar close">
+                <div class="logo-part">
+
+                    <img src="logo1.jpg" alt="profil resmi">
+
+                </div>
+                    <header class="sider">
+                        <div class="image-text">
+                            <span class="image">
+                                <?php 
+									if (!empty($profil_resmi)) { ?>
+									<img src="<?php echo $profil_resmi; ?>" alt="Profil Resmi">
+									<?php }
+									
+									else { ?>
+									<img src="download.png" alt="Profil Resmi">
+									<?php } 
+								?>
+                            </span>                      
+                        </div>
+                    </header>
+
+                    <div class="sidemenu">
+                        <div class="menu1">
+                            <ul class="menu-links">
+                                <li class="nav-link">
+                                    <a class="side" href="profil.php">
+                                        <i class="fa-regular fa-user icon"></i>
+                                        <span class="text nav-text">Profil</span>
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="side" href="ayarlar.php">
+                                        <i class="fa-solid fa-gear icon"></i>
+                                        <span class="text nav-text">Ayarlar</span>
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="side" href="iletisim.php">
+                                        <i class="fa-solid fa-phone icon"></i>
+                                        <span class="text nav-text">İletişim</span>
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="side" href="hakkimizda.php">
+                                        <i class="fa-solid fa-briefcase icon"></i>
+                                        <span class="text nav-text">Hakkımızda</span>
+                                    </a>
+                                </li>
+                                <li class="nav-link">
+                                    <a class="side" href="cikis.php">
+                                        <i class="fa-solid fa-xmark icon"></i>
+                                        <span class="text nav-text">Çıkış Yap</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+			<article class="alan">
+			<a href = "profil.php"><div class="buton">
+                    <input type="submit" class="btn" value="Geri Dön" name="ekle"><i class="fa-solid fa-arrow-left"></i></input>
+                </div></a>
+
+
+				<h2 class="add">İlanı Düzenle</h2>
+                <div class="form-container">
+                    <form action="ev_arkadasi_ilan_duzenle.php" method="post">
+                        <label for="ilan_baslik">Başlık:</label>
+                        <input type="text" name="ilan_baslik" id="ilan_baslik" value="">
+                        <br><br>
+                        <label for="ilan_yazi">Açıklama:</label>
+                        <textarea name="ilan_yazi" id="ilan_yazi"></textarea>
+                        <br><br>
+                        <label for="ilan_fiyat">Fiyat:</label>
+                        <input type="text" name="ilan_fiyat" id="ilan_fiyat" value="">
+                        <br><br>
+                        <input type="submit" name="duzenle" value="Düzenle" class="button">
+                    </form>
+    
+                </div>
+				
+		</article>
+
+    </div>
+
+  
+</body>
+
+</html>

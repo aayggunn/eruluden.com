@@ -1,0 +1,3264 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+
+    /**/
+    --text-color: #fff;
+    --back-color: dodgerblue;
+
+
+    /*TRANSİTİON*/
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.4s ease;
+    --tran-05: all 0.5s ease;
+
+}
+
+.wrapper {
+    width: 100%;
+}
+
+header.baslik {
+    width: 1421px;
+    background-color: dodgerblue;
+    height: 150px;
+    margin-left: 98px;
+
+}
+
+header.baslik h1 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+header.baslik h1 a {
+    font-size: 50px;
+    margin-top: 50px;
+    position: relative;
+    line-height: 150px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+nav.menu {
+    background-color: dodgerblue;
+    height: 85px;
+    margin-left: 0px;
+    
+}
+
+
+
+nav.menu ul {
+    float: left;
+    width: 1421px;
+}
+
+nav.menu ul li {
+    display: inline-flex;
+    margin: 10px 45px;
+}
+
+nav.menu ul li a {
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    padding: 30px;
+    top: -10px;
+
+
+}
+
+
+
+nav.menu ul li a:hover {
+    background-color: white;
+    color: dodgerblue;
+    transition-duration: 0.5s;
+    border-radius: 50px;
+}
+
+
+nav.menu ul li ul {
+    display: none;
+    width: 180px;
+    position: absolute;
+    margin-top: 80px;
+    height: 50px;
+}
+
+nav.menu ul li ul li a {
+    display: block;
+    width: 100px;
+    text-align: left;
+    font-size: 15px;
+    line-height: 20px;
+
+}
+
+nav.menu ul li ul li {
+    display: block;
+    background-color: dodgerblue;
+    margin: 0;
+    padding: 0;
+    width: 164px;
+}
+
+
+
+.sidebar {
+    position: fixed;
+    height: 100%;
+    left: 0;
+    background-color: dodgerblue;
+    margin-top: -250px;
+    width: 250px;
+    padding: 10px 14px;
+    transition-duration: 0.5s;
+}
+
+
+.sidebar.close {
+    width: 70px;
+    height: 100%;
+    position: fixed;
+    margin-top: -250px;
+}
+
+.sidebar.close .text {
+    opacity: 0;
+}
+
+.sidebar header.sider {
+    position: relative;
+    margin-top: 45px;
+}
+
+.sidebar .image-text img {
+    width: 60px;
+    height: 60px;
+    border-radius: 80px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sidebar header.sider .image-text {
+    display: flex;
+    align-items: center;
+
+}
+
+.sidebar .text {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 40px;
+    color: #fff;
+    transition-duration: 0.5s;
+
+}
+
+.sidebar .image {
+    min-width: 60px;
+    display: flex;
+    align-items: center;
+}
+
+header.sidebar .image-text .header-text {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.sidebar li {
+    height: 50px;
+    background-color: dodgerblue;
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+.sidebar li .icon {
+    font-size: 16px;
+    min-width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sidebar li .icon,
+.sidebar li .text {
+    color: var(--text-color);
+}
+
+.sidebar li a {
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    width: 100%;
+    transition-duration: 0.5s;
+
+}
+
+.sidebar li a:hover {
+    background: var(--text-color);
+    transition-duration: 0.5s ease;
+
+}
+
+
+
+.sidebar li a:hover .icon,
+.sidebar li a:hover .text {
+    color: dodgerblue;
+    transition-duration: 0.5s;
+    border-radius: 30px;
+    font-style: italic;
+}
+
+.sidebar .sidemenu {
+    margin-top: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.logo-part {
+    width: 70px;
+    height: 70px;
+    background-color: aqua;
+    margin-top: 45px;
+    
+}
+
+.logo-part img{
+    width: 70px;
+    height: 70px;
+}
+
+article{
+    margin-left: 200px;
+    width: 900px;
+}
+
+.ayar-kutu{
+    background-color: cornflowerblue;
+    width: 900px;
+    height: 900px;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+}
+
+
+
+@media (max-width:1448px) {
+
+
+    header.baslik {
+        height: 150px;
+        width: 1350px;
+    }
+
+    header.baslik h1 {
+        margin-left: 30px;
+    }
+
+
+    nav.menu {
+        width: 1350px;
+        height: 100px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-flex;
+        margin: 10px 25px;
+    }
+
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 25px;
+        padding: 30px;
+        top: -10px;
+
+    }
+
+    .logo-part {
+        width: 70px;
+        height: 70px;
+        background-color: aqua;
+        margin-top: 30px;
+        
+    }
+ 
+
+}
+
+
+@media (max-width:1440px) {
+
+
+    header.baslik {
+        height: 150px;
+        width: 1390px;
+    }
+
+    header.baslik h1 {
+        margin-left: 30px;
+    }
+
+
+    nav.menu {
+        width: 1390px;
+        height: 100px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-flex;
+        margin: 10px 25px;
+    }
+
+    .sidebar.close {
+        width: 70px;
+        height: 100%;
+        position: fixed;
+        margin-top: -255px;
+    }
+
+    .sidebar .sidemenu {
+        margin-top: 0px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    .sidebar li {
+        height: 50px;
+        background-color: dodgerblue;
+        margin-top: 10px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    
+    }
+
+    .logo-part {
+        width: 70px;
+        height: 70px;
+        background-color: aqua;
+        margin-top: 35px;
+        
+    }
+
+}
+
+@media (max-width:1412px) {
+
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 30px;
+    }
+
+
+    nav.menu {
+        width: 100%;
+        height: 80px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 35px 35px;
+    }
+
+
+    .logo-part {
+        width: 70px;
+        height: 70px;
+        background-color: aqua;
+        margin-top: 60px;
+        
+    }
+
+}
+
+
+
+
+@media (max-width:1388px) {
+
+
+    header {
+        height: 130px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 30px;
+    }
+
+
+    nav.menu {
+        width: 100%;
+        height: 80px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-flex;
+        margin: 10px 45px;
+    }
+
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 20px;
+        padding: 30px;
+        top: -10px;
+
+    }
+
+    .sidebar .sidemenu {
+        margin-top: 0px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    .sidebar li {
+        height: 50px;
+        background-color: dodgerblue;
+        margin-top: 10px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    
+    }
+
+}
+
+@media (max-width:1228px) {
+
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 30px;
+    }
+
+
+    nav.menu {
+        width: 100%;
+        height: 80px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-flex;
+        margin: 10px 45px;
+    }
+
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 20px;
+        padding: 30px;
+        top: -10px;
+
+    }
+
+
+
+}
+
+@media (max-width:1208px) {
+
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 30px;
+    }
+
+
+    nav.menu {
+        width: 100%;
+        height: 80px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-flex;
+        margin: 10px 35px;
+    }
+
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 22px;
+        padding: 30px;
+        top: -10px;
+
+    }
+
+
+
+}
+
+@media (max-width:1102px) {
+
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 30px;
+    }
+
+
+    nav.menu {
+        width: 100%;
+        height: 80px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-flex;
+        margin: 10px 35px;
+    }
+
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 22px;
+        padding: 30px;
+        top: -10px;
+
+    }
+
+
+
+}
+
+
+@media (max-width:1060px) {
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 30px;
+    }
+
+
+    nav.menu {
+        width: 100%;
+        height: 80px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-flex;
+        margin: 10px 35px;
+    }
+
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 22px;
+        padding: 30px;
+        top: -10px;
+
+    }
+
+
+
+}
+
+@media (max-width:967px) {
+
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 30px;
+    }
+
+
+    nav.menu {
+        width: 100%;
+        height: 60px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 30px 20px;
+    }
+
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 15px;
+        padding: 30px;
+        top: -10px;
+
+    }
+
+
+   
+
+}
+
+
+@media (max-width:940px) {
+
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 30px;
+    }
+
+
+    nav.menu {
+        width: 100%;
+        height: 80px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 40px 15px;
+    }
+
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 15px;
+        padding: 30px;
+        top: -10px;
+
+    }
+
+
+
+}
+
+@media (max-width:917px) {
+
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 30px;
+    }
+
+
+    nav.menu {
+        width: 100%;
+        height: 80px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 40px 15px;
+    }
+
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 15px;
+        padding: 30px;
+        top: -10px;
+
+    }
+
+
+
+}
+
+@media (max-width:850px) {
+
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 30px;
+    }
+
+
+    nav.menu {
+        width: 100%;
+        height: 70px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 35px 10px;
+    }
+
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 15px;
+        padding: 30px;
+        top: -10px;
+
+    }
+
+
+
+}
+
+
+@media (max-width:838px) {
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 25px;
+    }
+
+    header h1 a {
+        font-size: 40px;
+        margin-top: 50px;
+        position: relative;
+        line-height: 150px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 50px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 25px 5px;
+    }
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 14px;
+        padding: 30px;
+
+    }
+
+   
+}
+
+@media (max-width:797px) {
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 20px;
+    }
+
+    header h1 a {
+        font-size: 35px;
+        margin-top: 50px;
+        position: relative;
+        line-height: 150px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 50px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 50px 12px;
+    }
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 30px;
+        padding: 30px;
+
+    }
+
+
+
+   
+}
+
+@media (max-width:768px) {
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 20px;
+    }
+
+    header h1 a {
+        font-size: 35px;
+        margin-top: 50px;
+        position: relative;
+        line-height: 150px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 50px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 20px 15px;
+    }
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 20px;
+        padding: 30px;
+
+    }
+
+
+
+  
+}
+
+@media (max-width:750px) {
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 20px;
+    }
+
+    header h1 a {
+        font-size: 35px;
+        margin-top: 50px;
+        position: relative;
+        line-height: 150px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 70px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 20px 0.5px;
+    }
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 12px;
+        padding: 30px;
+
+    }
+
+
+
+   
+}
+
+
+@media (max-width:737px) {
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 20px;
+    }
+
+    header h1 a {
+        font-size: 35px;
+        margin-top: 50px;
+        position: relative;
+        line-height: 150px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 70px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 20px 1.5px;
+    }
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 10px;
+        padding: 30px;
+
+    }
+
+
+
+   
+}
+
+@media (max-width:796px) {
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 20px;
+    }
+
+    header h1 a {
+        font-size: 35px;
+        margin-top: 50px;
+        position: relative;
+        line-height: 150px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 70px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 20px 1.5px;
+    }
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 12px;
+        padding: 30px;
+
+    }
+
+
+
+  
+}
+
+@media (max-width:750px) {
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 a {
+        font-size: 45px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 140px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0.5px;
+
+
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 84px;
+
+    }
+
+    nav.menu ul {
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 18px 32px;
+    }
+
+    nav.menu ul li p.log {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    nav.menu ul li a {
+        font-size: 20px;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    label.text {
+        display: none;
+    }
+
+  
+
+}
+
+@media (max-width:696px) {
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 a {
+        font-size: 45px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 140px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0.5px;
+
+
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 84px;
+
+    }
+
+    nav.menu ul {
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 18px 28px;
+    }
+
+    nav.menu ul li p.log {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    nav.menu ul li a {
+        font-size: 20px;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    label.text {
+        display: none;
+    }
+
+   
+
+}
+
+@media (max-width:648px) {
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 a {
+        font-size: 45px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 140px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0.5px;
+
+
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 84px;
+
+    }
+
+    nav.menu ul {
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-flex;
+        margin: 18px 20px;
+    }
+
+    nav.menu ul li p.log {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    nav.menu ul li a {
+        font-size: 20px;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    label.text {
+        display: none;
+    }
+
+
+
+
+
+}
+
+@media (max-width:632px) {
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 a {
+        font-size: 45px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 140px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0.5px;
+
+
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 84px;
+
+    }
+
+    nav.menu ul {
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-flex;
+        margin: 25px 15px;
+        flex-wrap: wrap;
+    }
+
+    nav.menu ul li p.log {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    nav.menu ul li a {
+        font-size: 20px;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    label.text {
+        display: none;
+    }
+
+ 
+
+
+}
+
+@media (max-width:572px) {
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 a {
+        font-size: 45px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 140px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0.5px;
+
+
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 84px;
+
+    }
+
+    nav.menu ul {
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 25px 0.5px;
+
+    }
+
+
+
+    nav.menu ul li a {
+        font-size: 10px;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    label.text {
+        display: none;
+    }
+
+   
+
+}
+
+@media (max-width:632px) {
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 a {
+        font-size: 45px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 140px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0.5px;
+
+
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 84px;
+
+    }
+
+    nav.menu ul {
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-flex;
+        margin: 25px 15px;
+        flex-wrap: wrap;
+    }
+
+    nav.menu ul li p.log {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    nav.menu ul li a {
+        font-size: 20px;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    label.text {
+        display: none;
+    }
+
+   
+
+}
+
+
+
+@media (max-width:426px) {
+
+ 
+    .wrapper{
+        width: 100%;
+    }
+
+    header.baslik {
+        width: 377px;
+        background-color: dodgerblue;
+        height: 80px;
+        margin-left: 48px;
+    }
+
+    header.baslik h1 {
+        text-align: left;
+        margin-left: 0px;
+    }
+
+    header.baslik h1 a {
+        font-size: 25px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 80px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 20px;
+    }
+
+
+
+    nav.menu {
+        background-color: dodgerblue;
+        height: 45px;
+        margin-left: 0px;
+    }
+
+
+
+    nav.menu ul {
+        float: left;
+        width: 377px;
+    }
+    nav.menu ul li {
+        display: inline-flex;
+        margin: 15px 17px;
+    }
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 14px;
+        padding: 10px;
+        top: -10px;
+
+
+    }
+
+
+
+    nav.menu ul li a:hover {
+        background-color: white;
+        color: dodgerblue;
+        transition-duration: 0.5s;
+        border-radius: 50px;
+    }
+
+
+    nav.menu ul li ul {
+        display: none;
+        width: 180px;
+        position: absolute;
+        margin-top: 80px;
+        height: 50px;
+    }
+
+    nav.menu ul li ul li a {
+        display: block;
+        width: 100px;
+        text-align: left;
+        font-size: 15px;
+        line-height: 20px;
+
+    }
+
+    nav.menu ul li ul li {
+        display: block;
+        background-color: dodgerblue;
+        margin: 0;
+        padding: 0;
+        width: 164px;
+    }
+
+    nav.menu ul li:hover ul,
+    nav.menu ul li:active ul {
+        display: block;
+
+    }
+
+    .sidebar {
+        position: fixed;
+        height: 100%;
+        left: 0;
+        background-color: dodgerblue;
+        margin-top: 0px;
+        width: 250px;
+        padding: 10px 14px;
+        transition-duration: 0.5s;
+    }
+
+
+    .sidebar.close {
+        width: 25px;
+        height: 100%;
+        position: fixed;
+        margin-top: -140px;
+    }
+
+    .sidebar.close .text {
+        opacity: 0;
+    }
+
+    .sidebar header.sider {
+        position: relative;
+        margin-top: 0px;
+
+    }
+
+    .sidebar .image-text img {
+        width: 35px;
+        height: 35px;
+        border-radius: 80px;
+        margin-top: 30px;
+        margin-left: -5px;
+        margin-right: 5px;
+    }
+
+    .sidebar header.sider .image-text {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .sidebar .text {
+        display: none;
+
+    }
+
+    .sidebar .image {
+        min-width: 60px;
+        display: flex;
+        align-items: center;
+    }
+
+    header.sidebar .image-text .header-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-text .name {
+        font-weight: 600;
+    }
+
+    .header-text .username {
+        margin-top: 2px;
+    }
+
+    .header-text .about {
+        margin-top: 2px;
+    }
+
+    .sidebar header.sider .toggle {
+        display: none;
+    }
+
+    .sidebar li {
+        height: 50px;
+        background-color: dodgerblue;
+        margin-top: -40px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-bottom: 80px;
+
+    }
+
+    .sidebar li .icon {
+        font-size: 12px;
+        min-width: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .sidebar li .icon,
+    .sidebar li .text {
+        color: var(--text-color);
+    }
+
+    .sidebar li a {
+        text-decoration: none;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        width: 100%;
+        transition-duration: 0.5s;
+
+    }
+
+    .sidebar li a:hover {
+        background: var(--text-color);
+        transition-duration: 0.5s ease;
+
+    }
+
+
+
+    .sidebar li a:hover .icon,
+    .sidebar li a:hover .text {
+        color: dodgerblue;
+        transition-duration: 0.5s;
+        border-radius: 30px;
+        font-style: italic;
+    }
+
+    .sidebar .sidemenu {
+        margin-top: -10px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .logo-part {
+        width: 35px;
+        height: 35px;
+        margin-top: 27px;
+        margin-left: -5px;
+
+
+    }
+
+    .logo-part img{
+        width: 35px;
+        height: 35px;
+    }
+
+    article{
+        margin-left: 15px;
+        width: 300px;
+    }
+    
+    .ayar-kutu{
+        background-color: cornflowerblue;
+        width: 340px;
+        height: 500px;
+        margin-top: 10px;
+        margin-left: 0px;
+        
+    }
+
+
+
+}
+
+@media (max-width:414px) {
+
+    header.baslik {
+        width: 370px;
+        background-color: dodgerblue;
+        height: 80px;
+        margin-left: 48px;
+    }
+
+    header.baslik h1 {
+        text-align: left;
+        margin-left: 0px;
+    }
+
+    header.baslik h1 a {
+        font-size: 25px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 80px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 20px;
+    }
+
+
+
+    nav.menu {
+        background-color: dodgerblue;
+        height: 45px;
+        margin-left: 0px;
+    }
+
+
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+    }
+
+    nav.menu ul li {
+        display: inline-flex;
+        margin: 15px 17px;
+    }
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 14px;
+        padding: 10px;
+        top: -10px;
+
+
+    }
+
+
+
+    nav.menu ul li a:hover {
+        background-color: white;
+        color: dodgerblue;
+        transition-duration: 0.5s;
+        border-radius: 50px;
+    }
+
+
+    nav.menu ul li ul {
+        display: none;
+        width: 180px;
+        position: absolute;
+        margin-top: 80px;
+        height: 50px;
+    }
+
+    nav.menu ul li ul li a {
+        display: block;
+        width: 100px;
+        text-align: left;
+        font-size: 15px;
+        line-height: 20px;
+
+    }
+
+    nav.menu ul li ul li {
+        display: block;
+        background-color: dodgerblue;
+        margin: 0;
+        padding: 0;
+        width: 164px;
+    }
+
+    nav.menu ul li:hover ul,
+    nav.menu ul li:active ul {
+        display: block;
+
+    }
+
+    .sidebar {
+        position: fixed;
+        height: 100%;
+        left: 0;
+        background-color: dodgerblue;
+        margin-top: 0px;
+        width: 250px;
+        padding: 10px 14px;
+        transition-duration: 0.5s;
+    }
+
+
+    .sidebar.close {
+        width: 25px;
+        height: 100%;
+        position: fixed;
+        margin-top: -140px;
+    }
+
+    .sidebar.close .text {
+        opacity: 0;
+    }
+
+    .sidebar header.sider {
+        position: relative;
+        margin-top: 0px;
+
+    }
+
+    .sidebar .image-text img {
+        width: 35px;
+        height: 35px;
+        border-radius: 80px;
+        margin-top: 30px;
+        margin-left: -5px;
+        margin-right: 5px;
+    }
+
+    .sidebar header.sider .image-text {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .sidebar .text {
+        display: none;
+
+    }
+
+    .sidebar .image {
+        min-width: 60px;
+        display: flex;
+        align-items: center;
+    }
+
+    header.sidebar .image-text .header-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-text .name {
+        font-weight: 600;
+    }
+
+    .header-text .username {
+        margin-top: 2px;
+    }
+
+    .header-text .about {
+        margin-top: 2px;
+    }
+
+    .sidebar header.sider .toggle {
+        display: none;
+    }
+
+    .sidebar li {
+        height: 50px;
+        background-color: dodgerblue;
+        margin-top: -40px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-bottom: 80px;
+
+    }
+
+    .sidebar li .icon {
+        font-size: 12px;
+        min-width: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .sidebar li .icon,
+    .sidebar li .text {
+        color: var(--text-color);
+    }
+
+    .sidebar li a {
+        text-decoration: none;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        width: 100%;
+        transition-duration: 0.5s;
+
+    }
+
+    .sidebar li a:hover {
+        background: var(--text-color);
+        transition-duration: 0.5s ease;
+
+    }
+
+
+
+    .sidebar li a:hover .icon,
+    .sidebar li a:hover .text {
+        color: dodgerblue;
+        transition-duration: 0.5s;
+        border-radius: 30px;
+        font-style: italic;
+    }
+
+    .sidebar .sidemenu {
+        margin-top: -10px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .logo-part {
+        width: 35px;
+        height: 35px;
+        margin-top: 27px;
+        margin-left: -5px;
+
+
+    }
+
+    .logo-part img{
+        width: 35px;
+        height: 35px;
+    }
+
+
+
+
+}
+
+@media (max-width:390px) {
+
+  
+    header.baslik {
+        width: 370px;
+        background-color: dodgerblue;
+        height: 80px;
+        margin-left: 48px;
+    }
+
+    header.baslik h1 {
+        text-align: left;
+        margin-left: 0px;
+    }
+
+    header.baslik h1 a {
+        font-size: 25px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 80px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 20px;
+    }
+
+
+
+    nav.menu {
+        background-color: dodgerblue;
+        height: 45px;
+        margin-left: 0px;
+    }
+
+
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+    }
+
+    nav.menu ul li {
+        display: inline-flex;
+        margin: 15px 17px;
+    }
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 14px;
+        padding: 10px;
+        top: -10px;
+
+
+    }
+
+
+
+    nav.menu ul li a:hover {
+        background-color: white;
+        color: dodgerblue;
+        transition-duration: 0.5s;
+        border-radius: 50px;
+    }
+
+
+    nav.menu ul li ul {
+        display: none;
+        width: 180px;
+        position: absolute;
+        margin-top: 80px;
+        height: 50px;
+    }
+
+    nav.menu ul li ul li a {
+        display: block;
+        width: 100px;
+        text-align: left;
+        font-size: 15px;
+        line-height: 20px;
+
+    }
+
+    nav.menu ul li ul li {
+        display: block;
+        background-color: dodgerblue;
+        margin: 0;
+        padding: 0;
+        width: 164px;
+    }
+
+    nav.menu ul li:hover ul,
+    nav.menu ul li:active ul {
+        display: block;
+
+    }
+
+    .sidebar {
+        position: fixed;
+        height: 100%;
+        left: 0;
+        background-color: dodgerblue;
+        margin-top: 0px;
+        width: 250px;
+        padding: 10px 14px;
+        transition-duration: 0.5s;
+    }
+
+
+    .sidebar.close {
+        width: 25px;
+        height: 100%;
+        position: fixed;
+        margin-top: -140px;
+    }
+
+    .sidebar.close .text {
+        opacity: 0;
+    }
+
+    .sidebar header.sider {
+        position: relative;
+        margin-top: 0px;
+
+    }
+
+    .sidebar .image-text img {
+        width: 35px;
+        height: 35px;
+        border-radius: 80px;
+        margin-top: 30px;
+        margin-left: -5px;
+        margin-right: 5px;
+    }
+
+    .sidebar header.sider .image-text {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .sidebar .text {
+        display: none;
+
+    }
+
+    .sidebar .image {
+        min-width: 60px;
+        display: flex;
+        align-items: center;
+    }
+
+    header.sidebar .image-text .header-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-text .name {
+        font-weight: 600;
+    }
+
+    .header-text .username {
+        margin-top: 2px;
+    }
+
+    .header-text .about {
+        margin-top: 2px;
+    }
+
+    .sidebar header.sider .toggle {
+        display: none;
+    }
+
+    .sidebar li {
+        height: 50px;
+        background-color: dodgerblue;
+        margin-top: -40px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-bottom: 80px;
+
+    }
+
+    .sidebar li .icon {
+        font-size: 12px;
+        min-width: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .sidebar li .icon,
+    .sidebar li .text {
+        color: var(--text-color);
+    }
+
+    .sidebar li a {
+        text-decoration: none;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        width: 100%;
+        transition-duration: 0.5s;
+
+    }
+
+    .sidebar li a:hover {
+        background: var(--text-color);
+        transition-duration: 0.5s ease;
+
+    }
+
+
+
+    .sidebar li a:hover .icon,
+    .sidebar li a:hover .text {
+        color: dodgerblue;
+        transition-duration: 0.5s;
+        border-radius: 30px;
+        font-style: italic;
+    }
+
+    .sidebar .sidemenu {
+        margin-top: -10px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .logo-part {
+        width: 35px;
+        height: 35px;
+        margin-top: 27px;
+        margin-left: -5px;
+
+
+    }
+
+    .logo-part img{
+        width: 35px;
+        height: 35px;
+    }
+
+
+   
+
+
+
+}
+
+@media (max-width:376px) {
+
+  
+    header.baslik {
+        width: 370px;
+        background-color: dodgerblue;
+        height: 80px;
+        margin-left: 48px;
+    }
+
+    header.baslik h1 {
+        text-align: left;
+        margin-left: 0px;
+    }
+
+    header.baslik h1 a {
+        font-size: 25px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 80px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 20px;
+    }
+
+
+
+    nav.menu {
+        background-color: dodgerblue;
+        height: 45px;
+        margin-left: 0px;
+    }
+
+
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+    }
+
+    nav.menu ul li {
+        display: inline-flex;
+        margin: 15px 17px;
+    }
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 14px;
+        padding: 10px;
+        top: -10px;
+
+
+    }
+
+
+
+    nav.menu ul li a:hover {
+        background-color: white;
+        color: dodgerblue;
+        transition-duration: 0.5s;
+        border-radius: 50px;
+    }
+
+
+    nav.menu ul li ul {
+        display: none;
+        width: 180px;
+        position: absolute;
+        margin-top: 80px;
+        height: 50px;
+    }
+
+    nav.menu ul li ul li a {
+        display: block;
+        width: 100px;
+        text-align: left;
+        font-size: 15px;
+        line-height: 20px;
+
+    }
+
+    nav.menu ul li ul li {
+        display: block;
+        background-color: dodgerblue;
+        margin: 0;
+        padding: 0;
+        width: 164px;
+    }
+
+    nav.menu ul li:hover ul,
+    nav.menu ul li:active ul {
+        display: block;
+
+    }
+
+    .sidebar {
+        position: fixed;
+        height: 100%;
+        left: 0;
+        background-color: dodgerblue;
+        margin-top: 0px;
+        width: 250px;
+        padding: 10px 14px;
+        transition-duration: 0.5s;
+    }
+
+
+    .sidebar.close {
+        width: 25px;
+        height: 100%;
+        position: fixed;
+        margin-top: -140px;
+    }
+
+    .sidebar.close .text {
+        opacity: 0;
+    }
+
+    .sidebar header.sider {
+        position: relative;
+        margin-top: 0px;
+
+    }
+
+    .sidebar .image-text img {
+        width: 35px;
+        height: 35px;
+        border-radius: 80px;
+        margin-top: 30px;
+        margin-left: -5px;
+        margin-right: 5px;
+    }
+
+    .sidebar header.sider .image-text {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .sidebar .text {
+        display: none;
+
+    }
+
+    .sidebar .image {
+        min-width: 60px;
+        display: flex;
+        align-items: center;
+    }
+
+    header.sidebar .image-text .header-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-text .name {
+        font-weight: 600;
+    }
+
+    .header-text .username {
+        margin-top: 2px;
+    }
+
+    .header-text .about {
+        margin-top: 2px;
+    }
+
+    .sidebar header.sider .toggle {
+        display: none;
+    }
+
+    .sidebar li {
+        height: 50px;
+        background-color: dodgerblue;
+        margin-top: -40px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-bottom: 80px;
+
+    }
+
+    .sidebar li .icon {
+        font-size: 12px;
+        min-width: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .sidebar li .icon,
+    .sidebar li .text {
+        color: var(--text-color);
+    }
+
+    .sidebar li a {
+        text-decoration: none;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        width: 100%;
+        transition-duration: 0.5s;
+
+    }
+
+    .sidebar li a:hover {
+        background: var(--text-color);
+        transition-duration: 0.5s ease;
+
+    }
+
+
+
+    .sidebar li a:hover .icon,
+    .sidebar li a:hover .text {
+        color: dodgerblue;
+        transition-duration: 0.5s;
+        border-radius: 30px;
+        font-style: italic;
+    }
+
+    .sidebar .sidemenu {
+        margin-top: -10px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .logo-part {
+        width: 35px;
+        height: 35px;
+        margin-top: 27px;
+        margin-left: -5px;
+
+
+    }
+
+    .logo-part img{
+        width: 35px;
+        height: 35px;
+    }
+
+
+
+
+}
+
+@media (max-width:366px) {
+
+   
+    header.baslik {
+        width: 370px;
+        background-color: dodgerblue;
+        height: 80px;
+        margin-left: 48px;
+    }
+
+    header.baslik h1 {
+        text-align: left;
+        margin-left: 0px;
+    }
+
+    header.baslik h1 a {
+        font-size: 25px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 80px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 20px;
+    }
+
+
+
+    nav.menu {
+        background-color: dodgerblue;
+        height: 45px;
+        margin-left: 0px;
+    }
+
+
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+    }
+
+    nav.menu ul li {
+        display: inline-flex;
+        margin: 15px 17px;
+    }
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 14px;
+        padding: 10px;
+        top: -10px;
+
+
+    }
+
+
+
+    nav.menu ul li a:hover {
+        background-color: white;
+        color: dodgerblue;
+        transition-duration: 0.5s;
+        border-radius: 50px;
+    }
+
+
+    nav.menu ul li ul {
+        display: none;
+        width: 180px;
+        position: absolute;
+        margin-top: 80px;
+        height: 50px;
+    }
+
+    nav.menu ul li ul li a {
+        display: block;
+        width: 100px;
+        text-align: left;
+        font-size: 15px;
+        line-height: 20px;
+
+    }
+
+    nav.menu ul li ul li {
+        display: block;
+        background-color: dodgerblue;
+        margin: 0;
+        padding: 0;
+        width: 164px;
+    }
+
+    nav.menu ul li:hover ul,
+    nav.menu ul li:active ul {
+        display: block;
+
+    }
+
+    .sidebar {
+        position: fixed;
+        height: 100%;
+        left: 0;
+        background-color: dodgerblue;
+        margin-top: 0px;
+        width: 250px;
+        padding: 10px 14px;
+        transition-duration: 0.5s;
+    }
+
+
+    .sidebar.close {
+        width: 25px;
+        height: 100%;
+        position: fixed;
+        margin-top: -140px;
+    }
+
+    .sidebar.close .text {
+        opacity: 0;
+    }
+
+    .sidebar header.sider {
+        position: relative;
+        margin-top: 0px;
+
+    }
+
+    .sidebar .image-text img {
+        width: 35px;
+        height: 35px;
+        border-radius: 80px;
+        margin-top: 30px;
+        margin-left: -5px;
+        margin-right: 5px;
+    }
+
+    .sidebar header.sider .image-text {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .sidebar .text {
+        display: none;
+
+    }
+
+    .sidebar .image {
+        min-width: 60px;
+        display: flex;
+        align-items: center;
+    }
+
+    header.sidebar .image-text .header-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-text .name {
+        font-weight: 600;
+    }
+
+    .header-text .username {
+        margin-top: 2px;
+    }
+
+    .header-text .about {
+        margin-top: 2px;
+    }
+
+    .sidebar header.sider .toggle {
+        display: none;
+    }
+
+    .sidebar li {
+        height: 50px;
+        background-color: dodgerblue;
+        margin-top: -40px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-bottom: 80px;
+
+    }
+
+    .sidebar li .icon {
+        font-size: 12px;
+        min-width: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .sidebar li .icon,
+    .sidebar li .text {
+        color: var(--text-color);
+    }
+
+    .sidebar li a {
+        text-decoration: none;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        width: 100%;
+        transition-duration: 0.5s;
+
+    }
+
+    .sidebar li a:hover {
+        background: var(--text-color);
+        transition-duration: 0.5s ease;
+
+    }
+
+
+
+    .sidebar li a:hover .icon,
+    .sidebar li a:hover .text {
+        color: dodgerblue;
+        transition-duration: 0.5s;
+        border-radius: 30px;
+        font-style: italic;
+    }
+
+    .sidebar .sidemenu {
+        margin-top: -10px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .logo-part {
+        width: 35px;
+        height: 35px;
+        margin-top: 27px;
+        margin-left: -5px;
+
+
+    }
+
+    .logo-part img{
+        width: 35px;
+        height: 35px;
+    }
+
+
+
+
+}
+
+@media (max-width:330px) {
+   
+    header.baslik {
+        width: 370px;
+        background-color: dodgerblue;
+        height: 80px;
+        margin-left: 48px;
+    }
+
+    header.baslik h1 {
+        text-align: left;
+        margin-left: 0px;
+    }
+
+    header.baslik h1 a {
+        font-size: 25px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 80px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 20px;
+    }
+
+
+
+    nav.menu {
+        background-color: dodgerblue;
+        height: 45px;
+        margin-left: 0px;
+    }
+
+
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+    }
+
+    nav.menu ul li {
+        display: inline-flex;
+        margin: 15px 17px;
+    }
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 14px;
+        padding: 10px;
+        top: -10px;
+
+
+    }
+
+
+
+    nav.menu ul li a:hover {
+        background-color: white;
+        color: dodgerblue;
+        transition-duration: 0.5s;
+        border-radius: 50px;
+    }
+
+
+    nav.menu ul li ul {
+        display: none;
+        width: 180px;
+        position: absolute;
+        margin-top: 80px;
+        height: 50px;
+    }
+
+    nav.menu ul li ul li a {
+        display: block;
+        width: 100px;
+        text-align: left;
+        font-size: 15px;
+        line-height: 20px;
+
+    }
+
+    nav.menu ul li ul li {
+        display: block;
+        background-color: dodgerblue;
+        margin: 0;
+        padding: 0;
+        width: 164px;
+    }
+
+    nav.menu ul li:hover ul,
+    nav.menu ul li:active ul {
+        display: block;
+
+    }
+
+    .sidebar {
+        position: fixed;
+        height: 100%;
+        left: 0;
+        background-color: dodgerblue;
+        margin-top: 0px;
+        width: 250px;
+        padding: 10px 14px;
+        transition-duration: 0.5s;
+    }
+
+
+    .sidebar.close {
+        width: 25px;
+        height: 100%;
+        position: fixed;
+        margin-top: -140px;
+    }
+
+    .sidebar.close .text {
+        opacity: 0;
+    }
+
+    .sidebar header.sider {
+        position: relative;
+        margin-top: 0px;
+
+    }
+
+    .sidebar .image-text img {
+        width: 35px;
+        height: 35px;
+        border-radius: 80px;
+        margin-top: 30px;
+        margin-left: -5px;
+        margin-right: 5px;
+    }
+
+    .sidebar header.sider .image-text {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .sidebar .text {
+        display: none;
+
+    }
+
+    .sidebar .image {
+        min-width: 60px;
+        display: flex;
+        align-items: center;
+    }
+
+    header.sidebar .image-text .header-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-text .name {
+        font-weight: 600;
+    }
+
+    .header-text .username {
+        margin-top: 2px;
+    }
+
+    .header-text .about {
+        margin-top: 2px;
+    }
+
+    .sidebar header.sider .toggle {
+        display: none;
+    }
+
+    .sidebar li {
+        height: 50px;
+        background-color: dodgerblue;
+        margin-top: -40px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-bottom: 80px;
+
+    }
+
+    .sidebar li .icon {
+        font-size: 12px;
+        min-width: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .sidebar li .icon,
+    .sidebar li .text {
+        color: var(--text-color);
+    }
+
+    .sidebar li a {
+        text-decoration: none;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        width: 100%;
+        transition-duration: 0.5s;
+
+    }
+
+    .sidebar li a:hover {
+        background: var(--text-color);
+        transition-duration: 0.5s ease;
+
+    }
+
+
+
+    .sidebar li a:hover .icon,
+    .sidebar li a:hover .text {
+        color: dodgerblue;
+        transition-duration: 0.5s;
+        border-radius: 30px;
+        font-style: italic;
+    }
+
+    .sidebar .sidemenu {
+        margin-top: -10px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .logo-part {
+        width: 35px;
+        height: 35px;
+        margin-top: 27px;
+        margin-left: -5px;
+
+
+    }
+
+    .logo-part img{
+        width: 35px;
+        height: 35px;
+    }
+
+
+
+
+}
+
+@media (max-width:320px) {
+
+ 
+    header.baslik {
+        width: 370px;
+        background-color: dodgerblue;
+        height: 80px;
+        margin-left: 48px;
+    }
+
+    header.baslik h1 {
+        text-align: left;
+        margin-left: 0px;
+    }
+
+    header.baslik h1 a {
+        font-size: 25px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 80px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 20px;
+    }
+
+
+
+    nav.menu {
+        background-color: dodgerblue;
+        height: 45px;
+        margin-left: 0px;
+    }
+
+
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+    }
+
+    nav.menu ul li {
+        display: inline-flex;
+        margin: 15px 17px;
+    }
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 14px;
+        padding: 10px;
+        top: -10px;
+
+
+    }
+
+
+
+    nav.menu ul li a:hover {
+        background-color: white;
+        color: dodgerblue;
+        transition-duration: 0.5s;
+        border-radius: 50px;
+    }
+
+
+    nav.menu ul li ul {
+        display: none;
+        width: 180px;
+        position: absolute;
+        margin-top: 80px;
+        height: 50px;
+    }
+
+    nav.menu ul li ul li a {
+        display: block;
+        width: 100px;
+        text-align: left;
+        font-size: 15px;
+        line-height: 20px;
+
+    }
+
+    nav.menu ul li ul li {
+        display: block;
+        background-color: dodgerblue;
+        margin: 0;
+        padding: 0;
+        width: 164px;
+    }
+
+    nav.menu ul li:hover ul,
+    nav.menu ul li:active ul {
+        display: block;
+
+    }
+
+    .sidebar {
+        position: fixed;
+        height: 100%;
+        left: 0;
+        background-color: dodgerblue;
+        margin-top: 0px;
+        width: 250px;
+        padding: 10px 14px;
+        transition-duration: 0.5s;
+    }
+
+
+    .sidebar.close {
+        width: 25px;
+        height: 100%;
+        position: fixed;
+        margin-top: -140px;
+    }
+
+    .sidebar.close .text {
+        opacity: 0;
+    }
+
+    .sidebar header.sider {
+        position: relative;
+        margin-top: 0px;
+
+    }
+
+    .sidebar .image-text img {
+        width: 35px;
+        height: 35px;
+        border-radius: 80px;
+        margin-top: 30px;
+        margin-left: -5px;
+        margin-right: 5px;
+    }
+
+    .sidebar header.sider .image-text {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .sidebar .text {
+        display: none;
+
+    }
+
+    .sidebar .image {
+        min-width: 60px;
+        display: flex;
+        align-items: center;
+    }
+
+    header.sidebar .image-text .header-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-text .name {
+        font-weight: 600;
+    }
+
+    .header-text .username {
+        margin-top: 2px;
+    }
+
+    .header-text .about {
+        margin-top: 2px;
+    }
+
+    .sidebar header.sider .toggle {
+        display: none;
+    }
+
+    .sidebar li {
+        height: 50px;
+        background-color: dodgerblue;
+        margin-top: -40px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-bottom: 80px;
+
+    }
+
+    .sidebar li .icon {
+        font-size: 12px;
+        min-width: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .sidebar li .icon,
+    .sidebar li .text {
+        color: var(--text-color);
+    }
+
+    .sidebar li a {
+        text-decoration: none;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        width: 100%;
+        transition-duration: 0.5s;
+
+    }
+
+    .sidebar li a:hover {
+        background: var(--text-color);
+        transition-duration: 0.5s ease;
+
+    }
+
+
+
+    .sidebar li a:hover .icon,
+    .sidebar li a:hover .text {
+        color: dodgerblue;
+        transition-duration: 0.5s;
+        border-radius: 30px;
+        font-style: italic;
+    }
+
+    .sidebar .sidemenu {
+        margin-top: -10px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .logo-part {
+        width: 35px;
+        height: 35px;
+        margin-top: 27px;
+        margin-left: -5px;
+
+
+    }
+
+    .logo-part img{
+        width: 35px;
+        height: 35px;
+    }
+
+
+   
+
+
+}
+
+
+
