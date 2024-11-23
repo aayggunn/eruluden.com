@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.login-box {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    border: 2px solid transparent; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2em;
+    color: #666;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.input-box {
+    position: relative;
+    width: 310px;
+    margin: 30px 0;
+    border-bottom: 2px solid #fff;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #666;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -10px;
+}
+
+
+.input-box input {
+    width: 100%;
+    height: 50px;
+    border: 2px solid transparent; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    outline: none;
+    font-size: 1em;
+    color: #666;
+    padding: 0 35px 0 5px;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 8px;
+    color: #666;
+    font-size: 1.2em;
+    line-height: 57px;
+}
+
+.remember-forgot{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: dodgerblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-forgot label input{
+    margin-right: 3px;
+}
+
+.remember-forgot a{
+    color: dodgerblue;
+    text-decoration: none;
+
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    width: 100%;
+    height: 40px;
+    background: dodgerblue;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.register-link{
+    font-size: .9em;
+    text-align: center;
+    color: dodgerblue;
+    margin: 10px 0 10px;
+    padding-bottom: 20px;
+}
+
+.register-link p a{
+    color: dodgerblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width:980px){
+
+    .login-box{
+        width: 100%;
+        height: 100vh;
+    }
+
+
+}

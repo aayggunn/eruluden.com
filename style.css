@@ -1,0 +1,669 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* Genel ayarlar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bolum1 {
+    height: 100vh;
+    background: url("logo1.jpg");
+    background-size: cover;
+    background-position: 50% 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo-container {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.logo-container img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.bolum1 .display-4 {
+    font-weight: 700;
+    font-size: 65px;
+    margin-top: 0;
+}
+
+.bolum1 .display-5 {
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 0;
+}
+
+.bolum1 p {
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.bolum1 .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.bolum1 .text-white {
+    z-index: 1;
+}
+
+.bolum1 .sagicerik {
+    z-index: 1;
+    text-align: center;
+}
+
+.bolum1 .btn {
+    font-size: 24px;
+    padding: 15px 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .bolum1 {
+        height: 900px;
+    }
+
+    .bolum1 .display-4 {
+        font-weight: 700;
+        font-size: 53px;
+        margin-top: 0;
+    }
+}
+
+section {
+    position: relative;
+}
+
+.bolum2,
+.gradient-bg {
+    background: linear-gradient(to top, dodgerblue, #ffffff);
+    transition: background-color 0.5s ease;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bolum2 .resim {
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    height: 100%;
+    min-height: 300px;
+}
+
+.bolum2 .baslik h3,
+.bolum2 .baslik p {
+    font-size: 15px;
+    font-weight: 500;
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bolum2 .baslik h3 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 3px;
+}
+
+.bolum2 article {
+    padding: 40px;
+}
+
+.bolum2 article p.icerik {
+    font-size: 25px;
+    line-height: 1.8;
+    font-weight: 500;
+    color: #666;
+    background: -webkit-linear-gradient(#1e90ff, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 100px;
+}
+
+.gradient-bg {
+    background: linear-gradient(to top, #ffffff, #1e90ff);
+    padding: 80px 0;
+    margin-top: 100px;
+    color: #333;
+    text-align: center;
+    height: 900px;
+}
+
+.home-text {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.home-text h1 {
+    background: -webkit-linear-gradient(#333, #1e90ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home-text p.static-text {
+    color: #666;
+}
+
+.iphone {
+    max-width: 55%;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: black;
+    border-radius: 30px;
+    border: 16px solid black;
+    position: relative;
+    padding-top: 100%; /* Ekran oranını küçülttüm */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.notch {
+    width: 40%;
+    height: 30px;
+    background-color: black;
+    border-radius: 20px 20px 0 0;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.screen {
+    position: absolute;
+    top: 4%; /* Ekranı daha kompakt hale getirmek için üst boşluk azaldı */
+    left: 1%; /* Kenar boşluklarını azalttım */
+    right: 1%;
+    bottom: 8%;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.screen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.speaker {
+    position: absolute;
+    top: 2px;
+    left: 50%;
+    width: 60px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+
+.home-button {
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+@media (min-width: 1200px) {
+    .iphone {
+        max-width: 55%;
+    }
+    .notch {
+        width: 40%;
+        height: 30px;
+    }
+    .screen {
+        top: 4%;
+        left: 1%;
+        right: 1%;
+        bottom: 8%;
+    }
+    .speaker {
+        width: 60px;
+        height: 10px;
+    }
+    .home-button {
+        width: 30px;
+        height: 30px;
+        bottom: 2%;
+        transform: translate(-50%, 50%);
+    }
+}
+
+/* Orta ekranlar (768px - 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .iphone {
+        max-width: 55%;
+    }
+    .notch {
+        width: 38%;
+        height: 28px;
+    }
+    .screen {
+        top: 3%;
+        left: 2%;
+        right: 2%;
+        bottom: 7%;
+    }
+    .speaker {
+        width: 55px;
+        height: 10px;
+    }
+    .home-button {
+        width: 28px;
+        height: 28px;
+        transform: translate(-50%, 50%);
+    }
+}
+
+/* Küçük ekranlar (576px - 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .iphone {
+        max-width: 55%;
+    }
+    .screen {
+        top: 2%;
+        left: 1%;
+        right: 1%;
+        bottom: 5%;
+    }
+    .speaker {
+        width: 50px;
+        height: 10px;
+    }
+    .home-button {
+        width: 26px;
+        height: 26px;
+        transform: translate(-50%, 50%);
+    }
+}
+
+/* Çok küçük ekranlar (575px ve altı) */
+@media (max-width: 575px) {
+    .iphone {
+        max-width: 55%;
+    }
+    .screen {
+        top: 2%;
+        left: 0%;
+        right: 0%;
+        bottom: 5%;
+    }
+    .speaker {
+        width: 45px;
+        height: 10px;
+    }
+    .home-button {
+        width: 25px;
+        height: 25px;
+        transform: translate(-50%, 50%);
+    }
+}
+
+.features {
+    position: relative;
+	overflow-x: hidden;
+    width: 100%;
+}
+
+.feature {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+.feature.active {
+    opacity: 1;
+}
+
+.feature3 {
+    background-color: #a7d4ff;
+    color: #666;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.feature3 .baslikk {
+    background: -webkit-linear-gradient(#333, #1e90ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.feature4 {
+    background-color: #cfe7ff;
+    color: #666;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.feature4 .baslikk {
+    background: -webkit-linear-gradient(#666, #1e90ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.feature5 {
+    background-color: #e2f1ff;
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.feature5 .baslikk {
+    background: -webkit-linear-gradient(#007df6, #0a86ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.feature6 {
+    background-color: #f5f5f5;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.feature6 .baslikk {
+    background: -webkit-linear-gradient(black, #6666);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.feature h2 {
+    margin-bottom: 10px;
+}
+
+.feature p {
+    line-height: 1.6;
+}
+
+.son-bolum {
+    background: white;
+    transition: background 0.5s ease;
+    padding: 40px 40px;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.son-bolum .dizi {
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: color 0.3s ease;
+    max-width: 100%;
+}
+
+.son-bolum .dizi:hover h2, .son-bolum .dizi:hover p {
+    background: linear-gradient(to right, #1e90ff, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.son-bolum .dizi img {
+    width: 90%;
+    height: auto;
+    margin-bottom: 5px;
+    padding: 0 30px;
+    max-width: 100%;
+}
+
+.son-bolum .dizi h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #666;
+    transition: color 0.3s ease;
+    max-width: 100%;
+}
+
+.son-bolum .dizi p {
+    font-size: 22px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    transition: color 0.5s ease;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .son-bolum {
+        height: auto;
+        padding: 20px 10px;
+        overflow-x: hidden;
+    }
+
+    .son-bolum .dizi {
+        text-align: center;
+        width: 100%;
+        padding: 0 5px;
+    }
+
+    .son-bolum .dizi img {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .son-bolum .dizi {
+        width: 100%;
+    }
+
+    .son-bolum .dizi h2 {
+        font-size: 24px;
+    }
+
+    .son-bolum .dizi p {
+        font-size: 20px;
+    }
+}
+
+.bolum2,
+.gradient-bg {
+    background: linear-gradient(to top, white, dodgerblue);
+    transition: background-color 0.5s ease;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px; /* İçeriği kenarlardan uzaklaştırmak için padding eklendi */
+    overflow-x: hidden; /* Yatay kaymayı önler */
+}
+
+/* Bolum2 Styles */
+.bolum2 .resim {
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    height: 60%; /* Yükseklik daha da azaltıldı */
+    min-height: 150px; /* Minimum yükseklik daha da azaltıldı */
+}
+
+.bolum2 .baslik h3,
+.bolum2 .baslik p {
+    font-size: 19px;
+    font-weight: 500;
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bolum2 .baslik h3 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 3px;
+}
+
+.bolum2 article {
+    padding: 20px;
+    text-align: center; /* Metni ortalar */
+}
+
+.bolum2 article p.icerik {
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: 500;
+    color: #666;
+    background: -webkit-linear-gradient(#1e90ff, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 60px;
+    padding: 0 10px; /* Yanlara padding eklendi */
+}
+
+/* Gradient Background Section */
+.gradient-bg {
+    background: linear-gradient(to bottom, #ffffff, #1e90ff);
+    padding: 40px 0;
+    margin-top: 60px;
+    color: #333;
+    text-align: center;
+    overflow-x: hidden; /* Yatay kaymayı önler */
+}
+
+.gradient-bg h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 0 10px; /* Yanlara padding eklendi */
+}
+
+.gradient-bg p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    padding: 0 20px; /* Yanlara padding eklendi */
+}
+
+.gradient-bg .btn {
+    font-size: 16px;
+    padding: 6px 16px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fading-section {
+    animation: fadeIn 1s ease-in-out forwards;
+    opacity: 0;
+}
+
+
+footer{
+	background: #000;
+	padding: 80px 0;
+}
+footer h3{
+	color:#fff;
+	margin-bottom: 40px;
+	font-size: 20px;
+}
+
+footer p{
+	line-height: 1.8;
+	color: rgba(255,255,255,0.8)
+	
+}
+
+footer ul.sosyalmedya{
+margin-top: 40px;
+	list-style: none;
+	text-align: left;
+	padding: 0;
+}
+
+footer ul.sosyalmedya li{
+	display: block;
+	float: left;
+	margin-right: 10px;
+	width: 45px;
+	height: 45px;
+	padding: 5px;
+	text-align: center;
+	border-radius: 100%;
+	background-color: #171717;
+	
+}
+footer ul.sosyalmedya li a{
+	display: block;
+	font-size: 25px;
+	color:white;
+}
+
+footer ul.footerliste{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+}
+footer ul.footerliste li{
+	display: block;
+	margin-bottom: 10px;
+	
+}
+footer ul.footerliste li a{
+	text-decoration: none;
+	color: rgba(255,255,255,0.7);
+	
+}
+.footerliste i{
+	color:#fff;
+	float:left;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+footer .lisans{
+	margin-top: 40px;
+	color:rgba(255,255,255,0.7);
+}

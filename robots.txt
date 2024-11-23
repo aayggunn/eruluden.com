@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /
+
+# Allow specific pages
+Allow: /login.php
+Allow: /kayit.php
+Allow: /aanasayfa.html
+Allow: /iikinci_el_esya.php
+Allow: /dduyurular_haberler.html
+Allow: /dders_notu.php
+Allow: /kkampus.html
+Allow: /index.html
