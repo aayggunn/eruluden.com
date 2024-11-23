@@ -1,0 +1,4031 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    background-color: dodgerblue;
+    height: 150px;
+}
+
+header h1 {
+    text-align: left;
+    margin-left: 60px;
+}
+
+header h1 a {
+    font-size: 50px;
+    margin-top: 50px;
+    position: relative;
+    line-height: 150px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header img.image {
+    display: none;
+}
+
+nav.menu {
+    background-color: dodgerblue;
+    height: 85px;
+}
+
+
+
+nav.menu ul {
+    float: left;
+    width: 100%;
+}
+
+nav.menu ul li {
+    display: inline-block;
+    margin: 42px 60px;
+}
+
+nav.menu ul li a {
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    padding: 30px;
+    top: -10px;
+    
+
+}
+
+
+
+nav.menu ul li a:hover {
+    background-color: white;
+    color: dodgerblue;
+    transition-duration: 0.5s;
+    border-radius: 30px;
+}
+
+
+nav.menu ul li ul {
+    display: none;
+    width: 180px;
+    position: absolute;
+    margin-top: 30px;
+    height: 50px;
+   
+}   
+
+nav.menu ul li ul li a {
+    display: block;
+    width: 100px;
+    text-align: left;
+    font-size: 15px;
+    line-height: 20px;
+  
+}
+
+nav.menu ul li ul li {
+    display: block;
+    background-color: dodgerblue;
+    margin: 0;
+    padding: 0;
+    width: 164px;
+}
+
+
+nav.menu ul li:hover ul {
+    display: block;
+   
+}
+
+label.yermenu {
+    display: none;
+}
+
+aside {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 0px;
+    background-color: dodgerblue;
+    margin-top: 1px;
+}
+
+aside section {
+    margin: 0px;
+    padding: 0px;
+    width: 220px;
+    height: 620px;
+    background-color: dodgerblue;
+}
+
+aside section img {
+    margin: 0px;
+    padding: 0px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: dodgerblue;
+    float: top;
+    position: relative;
+    top: 0%;
+    left: 70%;
+    margin-top: 15px;
+    margin-left: -95px;
+}
+
+aside section h2 {
+    font-family: arial;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+}
+
+aside section h3 {
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+aside section p {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.stil {
+    font-size: 15px;
+    font-family: arial;
+    color: blue;
+    height: 250px;
+}
+
+.stil a {
+    margin: 15px;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+}
+
+.stil a:hover {
+    background-color: white;
+    color: dodgerblue;
+    transition-duration: 0.5s;
+    border-radius: 30px;
+}
+
+div.icerik{
+    margin-left: 220px;
+    text-align: center;
+    margin-top: -500px;
+    display: block;
+    font-size: 20px;
+    
+}
+
+
+input{
+    visibility: hidden;
+    display: none;
+
+}
+
+
+@media (max-width:1448px) {
+
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 30px;
+    }
+
+
+    nav.menu {
+        width: 100%;
+        height: 100px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 40px 45px;
+    }
+
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 25px;
+        padding: 30px;
+        top: -10px;
+    
+    }
+
+
+
+}
+
+
+@media (max-width:1440px) {
+
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 30px;
+    }
+
+
+    nav.menu {
+        width: 100%;
+        height: 100px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 40px 40px;
+    }
+
+
+
+
+}
+
+@media (max-width:1412px) {
+
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 30px;
+    }
+
+
+    nav.menu {
+        width: 100%;
+        height: 80px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 35px 35px;
+    }
+
+
+
+
+}
+
+
+
+
+@media (max-width:1388px) {
+
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 30px;
+    }
+
+
+    nav.menu {
+        width: 100%;
+        height: 80px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 35px 40px;
+    }
+
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 20px;
+        padding: 30px;
+        top: -10px;
+    
+    }
+
+
+
+}
+
+@media (max-width:1228px) {
+
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 30px;
+    }
+
+
+    nav.menu {
+        width: 100%;
+        height: 80px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 35px 30px;
+    }
+
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 20px;
+        padding: 30px;
+        top: -10px;
+    
+    }
+
+
+
+}
+
+@media (max-width:1208px) {
+
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 30px;
+    }
+
+
+    nav.menu {
+        width: 100%;
+        height: 60px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 30px 35px;
+    }
+
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 17px;
+        padding: 30px;
+        top: -10px;
+    
+    }
+
+
+
+}
+
+@media (max-width:1102px) {
+
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 30px;
+    }
+
+
+    nav.menu {
+        width: 100%;
+        height: 60px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 30px 25px;
+    }
+
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 17px;
+        padding: 30px;
+        top: -10px;
+    
+    }
+
+
+
+}
+
+
+@media (max-width:1060px){
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 30px;
+    }
+
+
+    nav.menu {
+        width: 100%;
+        height: 60px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 30px 25px;
+    }
+
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 15px;
+        padding: 30px;
+        top: -10px;
+    
+    }
+
+
+
+}
+
+@media (max-width:967px) {
+
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 30px;
+    }
+
+
+    nav.menu {
+        width: 100%;
+        height: 60px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 30px 20px;
+    }
+
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 15px;
+        padding: 30px;
+        top: -10px;
+    
+    }
+
+    
+    aside section {
+        margin: 0px;
+        padding: 0px;
+        width: 170px;
+        height: 620px;
+        background-color: dodgerblue;
+    }
+
+    aside section img {
+        margin: 0px;
+        padding: 0px;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        background-color: dodgerblue;
+        float: top;
+        position: relative;
+        top: 0%;
+        left: 70%;
+        margin-top: 20px;
+        margin-left: -85px;
+    }
+
+    div.icerik{
+        margin-left: 180px;
+    }
+
+
+}
+
+
+@media (max-width:940px) {
+
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 30px;
+    }
+
+
+    nav.menu {
+        width: 100%;
+        height: 80px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 40px 15px;
+    }
+
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 15px;
+        padding: 30px;
+        top: -10px;
+    
+    }
+
+
+
+}
+
+@media (max-width:917px) {
+
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 30px;
+    }
+
+
+    nav.menu {
+        width: 100%;
+        height: 80px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 40px 15px;
+    }
+
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 15px;
+        padding: 30px;
+        top: -10px;
+    
+    }
+
+
+
+}
+
+@media (max-width:850px) {
+
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 30px;
+    }
+
+
+    nav.menu {
+        width: 100%;
+        height: 70px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 35px 10px;
+    }
+
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 15px;
+        padding: 30px;
+        top: -10px;
+    
+    }
+
+
+
+}
+
+
+@media (max-width:838px) {
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 25px;
+    }
+
+    header h1 a {
+        font-size: 40px;
+        margin-top: 50px;
+        position: relative;
+        line-height: 150px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 50px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 25px 5px;
+    }
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 14px;
+        padding: 30px;
+
+    }
+
+    aside section {
+        margin: 0px;
+        padding: 0px;
+        width: 140px;
+        height: 620px;
+        background-color: dodgerblue;
+    }
+
+    aside section img {
+        margin: 0px;
+        padding: 0px;
+        width: 90px;
+        height: 90px;
+        border-radius: 100px;
+        background-color: dodgerblue;
+        float: top;
+        position: relative;
+        top: 0%;
+        left: 70%;
+        margin-top: 20px;
+        margin-left: -75px;
+    }
+}
+
+@media (max-width:797px) {
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 20px;
+    }
+
+    header h1 a {
+        font-size: 35px;
+        margin-top: 50px;
+        position: relative;
+        line-height: 150px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 50px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 50px 12px;
+    }
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 30px;
+        padding: 30px;
+
+    }
+
+
+
+    aside section {
+        margin: 0px;
+        padding: 0px;
+        width: 130px;
+        height: 500px;
+        background-color: dodgerblue;
+    }
+
+    aside section img {
+        margin: 0px;
+        padding: 0px;
+        width: 70px;
+        height: 70px;
+        border-radius: 100px;
+        background-color: dodgerblue;
+        float: top;
+        position: relative;
+        top: 0%;
+        left: 70%;
+        margin-top: 20px;
+        margin-left: -63px;
+    }
+
+    .stil a {
+        margin: 15px;
+        padding: 10px;
+        text-decoration: none;
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    aside section h2 {
+        font-family: arial;
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        margin-top: 10px;
+    }
+    div.icerik{
+        margin-top: -300px;
+        margin-left: 140px;
+    }
+}
+
+@media (max-width:768px) {
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 20px;
+    }
+
+    header h1 a {
+        font-size: 35px;
+        margin-top: 50px;
+        position: relative;
+        line-height: 150px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 50px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 20px 15px;
+    }
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 20px;
+        padding: 30px;
+
+    }
+
+
+
+    aside section {
+        margin: 0px;
+        padding: 0px;
+        width: 130px;
+        height: 500px;
+        background-color: dodgerblue;
+    }
+
+    aside section img {
+        margin: 0px;
+        padding: 0px;
+        width: 70px;
+        height: 70px;
+        border-radius: 100px;
+        background-color: dodgerblue;
+        float: top;
+        position: relative;
+        top: 0%;
+        left: 70%;
+        margin-top: 20px;
+        margin-left: -63px;
+    }
+
+    .stil a {
+        margin: 15px;
+        padding: 10px;
+        text-decoration: none;
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    aside section h2 {
+        font-family: arial;
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:750px) {
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 20px;
+    }
+
+    header h1 a {
+        font-size: 35px;
+        margin-top: 50px;
+        position: relative;
+        line-height: 150px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 70px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 20px 0.5px;
+    }
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 12px;
+        padding: 30px;
+
+    }
+
+
+
+    aside section {
+        margin: 0px;
+        padding: 0px;
+        width: 130px;
+        height: 500px;
+        background-color: dodgerblue;
+    }
+
+    aside section img {
+        margin: 0px;
+        padding: 0px;
+        width: 70px;
+        height: 70px;
+        border-radius: 100px;
+        background-color: dodgerblue;
+        float: top;
+        position: relative;
+        top: 0%;
+        left: 70%;
+        margin-top: 20px;
+        margin-left: -63px;
+    }
+
+    .stil a {
+        margin: 15px;
+        padding: 10px;
+        text-decoration: none;
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    aside section h2 {
+        font-family: arial;
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    div.icerik{
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: -400px;
+    }
+}
+
+
+@media (max-width:737px) {
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 20px;
+    }
+
+    header h1 a {
+        font-size: 35px;
+        margin-top: 50px;
+        position: relative;
+        line-height: 150px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 70px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 20px 1.5px;
+    }
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 10px;
+        padding: 30px;
+
+    }
+
+
+
+    aside section {
+        margin: 0px;
+        padding: 0px;
+        width: 130px;
+        height: 500px;
+        background-color: dodgerblue;
+    }
+
+    aside section img {
+        margin: 0px;
+        padding: 0px;
+        width: 70px;
+        height: 70px;
+        border-radius: 100px;
+        background-color: dodgerblue;
+        float: top;
+        position: relative;
+        top: 0%;
+        left: 70%;
+        margin-top: 20px;
+        margin-left: -63px;
+    }
+
+    .stil a {
+        margin: 15px;
+        padding: 10px;
+        text-decoration: none;
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    aside section h2 {
+        font-family: arial;
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:796px) {
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 {
+        margin-left: 20px;
+    }
+
+    header h1 a {
+        font-size: 35px;
+        margin-top: 50px;
+        position: relative;
+        line-height: 150px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 70px;
+    }
+
+    nav.menu ul {
+        float: left;
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 20px 1.5px;
+    }
+
+    nav.menu ul li a {
+        position: relative;
+        color: #fff;
+        font-size: 12px;
+        padding: 30px;
+
+    }
+
+
+
+    aside section {
+        margin: 0px;
+        padding: 0px;
+        width: 130px;
+        height: 500px;
+        background-color: dodgerblue;
+    }
+
+    aside section img {
+        margin: 0px;
+        padding: 0px;
+        width: 70px;
+        height: 70px;
+        border-radius: 100px;
+        background-color: dodgerblue;
+        float: top;
+        position: relative;
+        top: 0%;
+        left: 70%;
+        margin-top: 20px;
+        margin-left: -63px;
+    }
+
+    .stil a {
+        margin: 15px;
+        padding: 10px;
+        text-decoration: none;
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    aside section h2 {
+        font-family: arial;
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:750px) {
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 a {
+        font-size: 45px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 140px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0.5px;
+
+
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 84px;
+
+    }
+
+    nav.menu ul {
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 18px 32px;
+    }
+
+    nav.menu ul li p.log{
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    nav.menu ul li a {
+        font-size: 20px;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    label.text {
+        display: none;
+    }
+
+    label.yermenu {
+        display: none;
+        text-align: center;
+        margin-left: 190px;
+        background-color: dodgerblue;
+        color: #fff;
+        height: 20px;
+    }
+
+    label.yermenu a {
+
+        font-size: 12px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 10px;
+        background-color: dodgerblue;
+        font-weight: 900;
+    }
+
+    input {
+        display: block;
+        visibility: hidden;
+        position: absolute;
+        margin-left: 240px;
+        width: 8px;
+        height: 8px;
+        margin-top: -120px;
+        transform: none;
+    }
+
+    label.imglbl img.image{
+        width: 40px;
+        height: 40px;
+        display: block;
+        position: absolute;
+        margin-left: 350px;
+        margin-top: -142px;
+        border-radius: 100px;
+        transform: translateX(-10px);
+
+    }
+
+    
+
+    #check:checked ~ aside{
+        transform: translateX(0);
+        
+    }
+
+    
+
+    aside {
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 0px;
+        background-color: dodgerblue;
+        margin-top: 1px;
+        transform: translateX(-100px);
+    }
+
+    aside section {
+        margin: 0px;
+        padding: 0px;
+        width: 80px;
+        height: 620px;
+        background-color: dodgerblue;
+    }
+
+    aside section img {
+        margin: 0px;
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        background-color: dodgerblue;
+        float: top;
+        position: relative;
+        top: 0%;
+        left: 70%;
+        margin-top: 15px;
+        margin-left: -40px;
+    }
+
+    aside section h2 {
+        font-family: arial;
+        text-align: center;
+        font-size: 10px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .stil {
+        font-size: 10px;
+        font-family: arial;
+        color: blue;
+        height: 250px;
+    }
+
+    .stil a {
+        margin: 10px;
+        padding: 3px;
+        text-decoration: none;
+        display: block;
+        color: white;
+        text-align: center;
+    }
+
+
+
+
+}
+
+@media (max-width:696px) {
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 a {
+        font-size: 45px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 140px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0.5px;
+
+
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 84px;
+
+    }
+
+    nav.menu ul {
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 18px 28px;
+    }
+
+    nav.menu ul li p.log{
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    nav.menu ul li a {
+        font-size: 20px;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    label.text {
+        display: none;
+    }
+
+    label.yermenu {
+        display: none;
+        text-align: center;
+        margin-left: 190px;
+        background-color: dodgerblue;
+        color: #fff;
+        height: 20px;
+    }
+
+    label.yermenu a {
+
+        font-size: 12px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 10px;
+        background-color: dodgerblue;
+        font-weight: 900;
+    }
+
+    input {
+        display: block;
+        visibility: hidden;
+        position: absolute;
+        margin-left: 240px;
+        width: 8px;
+        height: 8px;
+        margin-top: -120px;
+        transform: none;
+    }
+
+    label.imglbl img.image{
+        width: 40px;
+        height: 40px;
+        display: block;
+        position: absolute;
+        margin-left: 350px;
+        margin-top: -142px;
+        border-radius: 100px;
+        transform: translateX(-10px);
+
+    }
+
+    
+
+    #check:checked ~ aside{
+        transform: translateX(0);
+        
+    }
+
+    
+
+    aside {
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 0px;
+        background-color: dodgerblue;
+        margin-top: 1px;
+        transform: translateX(-100px);
+    }
+
+    aside section {
+        margin: 0px;
+        padding: 0px;
+        width: 80px;
+        height: 620px;
+        background-color: dodgerblue;
+    }
+
+    aside section img {
+        margin: 0px;
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        background-color: dodgerblue;
+        float: top;
+        position: relative;
+        top: 0%;
+        left: 70%;
+        margin-top: 15px;
+        margin-left: -40px;
+    }
+
+    aside section h2 {
+        font-family: arial;
+        text-align: center;
+        font-size: 10px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .stil {
+        font-size: 10px;
+        font-family: arial;
+        color: blue;
+        height: 250px;
+    }
+
+    .stil a {
+        margin: 10px;
+        padding: 3px;
+        text-decoration: none;
+        display: block;
+        color: white;
+        text-align: center;
+    }
+
+
+
+
+}
+
+@media (max-width:648px) {
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 a {
+        font-size: 45px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 140px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0.5px;
+
+
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 84px;
+
+    }
+
+    nav.menu ul {
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-flex;
+        margin: 18px 20px;
+    }
+
+    nav.menu ul li p.log{
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    nav.menu ul li a {
+        font-size: 20px;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    label.text {
+        display: none;
+    }
+
+    label.yermenu {
+        display: none;
+        text-align: center;
+        margin-left: 190px;
+        background-color: dodgerblue;
+        color: #fff;
+        height: 20px;
+    }
+
+    label.yermenu a {
+
+        font-size: 12px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 10px;
+        background-color: dodgerblue;
+        font-weight: 900;
+    }
+
+    input {
+        display: block;
+        visibility: hidden;
+        position: absolute;
+        margin-left: 240px;
+        width: 8px;
+        height: 8px;
+        margin-top: -120px;
+        transform: none;
+    }
+
+    label.imglbl img.image{
+        width: 40px;
+        height: 40px;
+        display: block;
+        position: absolute;
+        margin-left: 350px;
+        margin-top: -142px;
+        border-radius: 100px;
+        transform: translateX(-10px);
+
+    }
+
+    
+
+    #check:checked ~ aside{
+        transform: translateX(0);
+        
+    }
+
+    
+
+    aside {
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 0px;
+        background-color: dodgerblue;
+        margin-top: 1px;
+        transform: translateX(-100px);
+    }
+
+    aside section {
+        margin: 0px;
+        padding: 0px;
+        width: 80px;
+        height: 620px;
+        background-color: dodgerblue;
+    }
+
+    aside section img {
+        margin: 0px;
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        background-color: dodgerblue;
+        float: top;
+        position: relative;
+        top: 0%;
+        left: 70%;
+        margin-top: 15px;
+        margin-left: -40px;
+    }
+
+    aside section h2 {
+        font-family: arial;
+        text-align: center;
+        font-size: 10px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .stil {
+        font-size: 10px;
+        font-family: arial;
+        color: blue;
+        height: 250px;
+    }
+
+    .stil a {
+        margin: 10px;
+        padding: 3px;
+        text-decoration: none;
+        display: block;
+        color: white;
+        text-align: center;
+    }
+
+
+
+
+}
+
+@media (max-width:632px){
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 a {
+        font-size: 45px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 140px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0.5px;
+
+
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 84px;
+
+    }
+
+    nav.menu ul {
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-flex;
+        margin: 25px 15px;
+        flex-wrap: wrap;
+    }
+
+    nav.menu ul li p.log{
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    nav.menu ul li a {
+        font-size: 20px;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    label.text {
+        display: none;
+    }
+
+    label.yermenu {
+        display: none;
+        text-align: center;
+        margin-left: 190px;
+        background-color: dodgerblue;
+        color: #fff;
+        height: 20px;
+    }
+
+    label.yermenu a {
+
+        font-size: 12px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 10px;
+        background-color: dodgerblue;
+        font-weight: 900;
+    }
+
+    input {
+        display: block;
+        visibility: hidden;
+        position: absolute;
+        margin-left: 240px;
+        width: 8px;
+        height: 8px;
+        margin-top: -120px;
+        transform: none;
+    }
+
+    label.imglbl img.image{
+        width: 40px;
+        height: 40px;
+        display: block;
+        position: absolute;
+        margin-left: 350px;
+        margin-top: -142px;
+        border-radius: 100px;
+        transform: translateX(-10px);
+
+    }
+
+    
+
+    #check:checked ~ aside{
+        transform: translateX(0);
+        
+    }
+
+    
+
+    aside {
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 0px;
+        background-color: dodgerblue;
+        margin-top: 1px;
+        transform: translateX(-100px);
+    }
+
+    aside section {
+        margin: 0px;
+        padding: 0px;
+        width: 80px;
+        height: 620px;
+        background-color: dodgerblue;
+    }
+
+    aside section img {
+        margin: 0px;
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        background-color: dodgerblue;
+        float: top;
+        position: relative;
+        top: 0%;
+        left: 70%;
+        margin-top: 15px;
+        margin-left: -40px;
+    }
+
+    aside section h2 {
+        font-family: arial;
+        text-align: center;
+        font-size: 10px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .stil {
+        font-size: 10px;
+        font-family: arial;
+        color: blue;
+        height: 250px;
+    }
+
+    .stil a {
+        margin: 10px;
+        padding: 3px;
+        text-decoration: none;
+        display: block;
+        color: white;
+        text-align: center;
+    }
+
+
+
+
+}
+
+@media (max-width:572px){
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 a {
+        font-size: 45px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 140px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0.5px;
+
+
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 84px;
+
+    }
+
+    nav.menu ul {
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 25px 0.5px;
+        
+    }
+
+   
+
+    nav.menu ul li a {
+        font-size: 10px;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    label.text {
+        display: none;
+    }
+
+    label.yermenu {
+        display: none;
+        text-align: center;
+        margin-left: 190px;
+        background-color: dodgerblue;
+        color: #fff;
+        height: 20px;
+    }
+
+    label.yermenu a {
+
+        font-size: 12px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 10px;
+        background-color: dodgerblue;
+        font-weight: 900;
+    }
+
+    input {
+        display: block;
+        visibility: hidden;
+        position: absolute;
+        margin-left: 240px;
+        width: 8px;
+        height: 8px;
+        margin-top: -120px;
+        transform: none;
+    }
+
+    label.imglbl img.image{
+        width: 40px;
+        height: 40px;
+        display: block;
+        position: absolute;
+        margin-left: 350px;
+        margin-top: -142px;
+        border-radius: 100px;
+        transform: translateX(-10px);
+
+    }
+
+    
+
+    #check:checked ~ aside{
+        transform: translateX(0);
+        
+    }
+
+    
+
+    aside {
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 0px;
+        background-color: dodgerblue;
+        margin-top: 1px;
+        transform: translateX(-100px);
+    }
+
+    aside section {
+        margin: 0px;
+        padding: 0px;
+        width: 80px;
+        height: 620px;
+        background-color: dodgerblue;
+    }
+
+    aside section img {
+        margin: 0px;
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        background-color: dodgerblue;
+        float: top;
+        position: relative;
+        top: 0%;
+        left: 70%;
+        margin-top: 15px;
+        margin-left: -40px;
+    }
+
+    aside section h2 {
+        font-family: arial;
+        text-align: center;
+        font-size: 10px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .stil {
+        font-size: 10px;
+        font-family: arial;
+        color: blue;
+        height: 250px;
+    }
+
+    .stil a {
+        margin: 10px;
+        padding: 3px;
+        text-decoration: none;
+        display: block;
+        color: white;
+        text-align: center;
+    }
+
+
+
+
+}
+
+@media (max-width:632px){
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    header h1 a {
+        font-size: 45px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 140px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0.5px;
+
+
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 84px;
+
+    }
+
+    nav.menu ul {
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-flex;
+        margin: 25px 15px;
+        flex-wrap: wrap;
+    }
+
+    nav.menu ul li p.log{
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    nav.menu ul li a {
+        font-size: 20px;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    label.text {
+        display: none;
+    }
+
+    label.yermenu {
+        display: none;
+        text-align: center;
+        margin-left: 190px;
+        background-color: dodgerblue;
+        color: #fff;
+        height: 20px;
+    }
+
+    label.yermenu a {
+
+        font-size: 12px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 10px;
+        background-color: dodgerblue;
+        font-weight: 900;
+    }
+
+    input {
+        display: block;
+        visibility: hidden;
+        position: absolute;
+        margin-left: 240px;
+        width: 8px;
+        height: 8px;
+        margin-top: -120px;
+        transform: none;
+    }
+
+    label.imglbl img.image{
+        width: 40px;
+        height: 40px;
+        display: block;
+        position: absolute;
+        margin-left: 350px;
+        margin-top: -142px;
+        border-radius: 100px;
+        transform: translateX(-10px);
+
+    }
+
+    
+
+    #check:checked ~ aside{
+        transform: translateX(0);
+        
+    }
+
+    
+
+    aside {
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 0px;
+        background-color: dodgerblue;
+        margin-top: 1px;
+        transform: translateX(-100px);
+    }
+
+    aside section {
+        margin: 0px;
+        padding: 0px;
+        width: 80px;
+        height: 620px;
+        background-color: dodgerblue;
+    }
+
+    aside section img {
+        margin: 0px;
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        background-color: dodgerblue;
+        float: top;
+        position: relative;
+        top: 0%;
+        left: 70%;
+        margin-top: 15px;
+        margin-left: -40px;
+    }
+
+    aside section h2 {
+        font-family: arial;
+        text-align: center;
+        font-size: 10px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .stil {
+        font-size: 10px;
+        font-family: arial;
+        color: blue;
+        height: 250px;
+    }
+
+    .stil a {
+        margin: 10px;
+        padding: 3px;
+        text-decoration: none;
+        display: block;
+        color: white;
+        text-align: center;
+    }
+
+
+
+
+}
+
+
+
+@media (max-width:426px) {
+
+    header {
+        height: 100px;
+        width: 100%;
+    }
+
+    header h1 a {
+        font-size: 22px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 80px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0.5px;
+
+
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 60px;
+
+    }
+
+    nav.menu ul {
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 34px 20px;
+    }
+
+    nav.menu ul li a {
+        font-size: 15px;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    label.text {
+        display: none;
+    }
+
+    label.yermenu {
+        display: flex;
+        text-align: center;
+        margin-left: 190px;
+        background-color: dodgerblue;
+        color: #fff;
+        height: 20px;
+    }
+
+    label.yermenu a {
+
+        font-size: 12px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 10px;
+        background-color: dodgerblue;
+        font-weight: 900;
+    }
+
+    input {
+        display: block;
+        visibility: hidden;
+        position: absolute;
+        margin-left: 240px;
+        width: 8px;
+        height: 8px;
+        margin-top: -120px;
+        transform: none;
+    }
+
+    label.imglbl img.image{
+        width: 40px;
+        height: 40px;
+        display: block;
+        position: absolute;
+        margin-left: 350px;
+        margin-top: -142px;
+        border-radius: 100px;
+        transform: translateX(-10px);
+
+    }
+
+    
+
+    #check:checked ~ aside{
+        transform: translateX(0);
+        
+    }
+
+    
+
+    aside {
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 0px;
+        background-color: dodgerblue;
+        margin-top: 1px;
+        transform: translateX(-100px);
+    }
+
+    aside section {
+        margin: 0px;
+        padding: 0px;
+        width: 80px;
+        height: 620px;
+        background-color: dodgerblue;
+    }
+
+    aside section img {
+        margin: 0px;
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        background-color: dodgerblue;
+        float: top;
+        position: relative;
+        top: 0%;
+        left: 70%;
+        margin-top: 15px;
+        margin-left: -40px;
+    }
+
+    aside section h2 {
+        font-family: arial;
+        text-align: center;
+        font-size: 10px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .stil {
+        font-size: 10px;
+        font-family: arial;
+        color: blue;
+        height: 250px;
+    }
+
+    .stil a {
+        margin: 10px;
+        padding: 3px;
+        text-decoration: none;
+        display: block;
+        color: white;
+        text-align: center;
+    }
+
+
+
+
+}
+
+@media (max-width:414px) {
+
+    header {
+        height: 100px;
+        width: 100%;
+    }
+
+    header h1 a {
+        font-size: 22px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 80px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0.5px;
+
+
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 60px;
+
+    }
+
+    nav.menu ul {
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 35px 20px;
+    }
+
+    nav.menu ul li a {
+        font-size: 15px;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    label.text {
+        display: none;
+    }
+
+    label.yermenu {
+        display: flex;
+        text-align: center;
+        margin-left: 190px;
+        background-color: dodgerblue;
+        color: #fff;
+        height: 20px;
+    }
+
+    label.yermenu a {
+
+        font-size: 12px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 10px;
+        background-color: dodgerblue;
+        font-weight: 900;
+    }
+
+    input {
+        display: block;
+        visibility: hidden;
+        position: absolute;
+        margin-left: 240px;
+        width: 8px;
+        height: 8px;
+        margin-top: -120px;
+        transform: none;
+    }
+
+    label.imglbl img.image{
+        width: 40px;
+        height: 40px;
+        display: block;
+        position: absolute;
+        margin-left: 350px;
+        margin-top: -142px;
+        border-radius: 100px;
+        transform: translateX(-10px);
+
+    }
+
+    
+
+    #check:checked ~ aside{
+        transform: translateX(0);
+        
+    }
+
+    
+
+    aside {
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 0px;
+        background-color: dodgerblue;
+        margin-top: 1px;
+        transform: translateX(-100px);
+    }
+
+    aside section {
+        margin: 0px;
+        padding: 0px;
+        width: 80px;
+        height: 620px;
+        background-color: dodgerblue;
+    }
+
+    aside section img {
+        margin: 0px;
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        background-color: dodgerblue;
+        float: top;
+        position: relative;
+        top: 0%;
+        left: 70%;
+        margin-top: 15px;
+        margin-left: -40px;
+    }
+
+    aside section h2 {
+        font-family: arial;
+        text-align: center;
+        font-size: 10px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .stil {
+        font-size: 10px;
+        font-family: arial;
+        color: blue;
+        height: 250px;
+    }
+
+    .stil a {
+        margin: 10px;
+        padding: 3px;
+        text-decoration: none;
+        display: block;
+        color: white;
+        text-align: center;
+    }
+
+
+
+
+}
+
+@media (max-width:376px)  {
+
+    header {
+        height: 100px;
+        width: 100%;
+    }
+
+    header h1 a {
+        font-size: 22px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 80px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0.5px;
+
+
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 60px;
+
+    }
+
+    nav.menu ul {
+        width: 100%;
+        margin: 20px 10px;
+    }
+
+    nav.menu ul li {
+        display: inline-flex;
+        margin: 20px 20px;
+    }
+
+    nav.menu ul li a {
+        font-size: 60px;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    label.text {
+        display: none;
+    }
+
+    label.yermenu {
+        display: flex;
+        text-align: center;
+        margin-left: 163px;
+        background-color: dodgerblue;
+        color: #fff;
+        height: 20px;
+    }
+
+    label.yermenu a {
+
+        font-size: 12px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 10px;
+        background-color: dodgerblue;
+        font-weight: 900;
+    }
+
+    input {
+        display: block;
+        visibility: hidden;
+        position: absolute;
+        margin-left: 220px;
+        width: 8px;
+        height: 8px;
+        margin-top: -120px;
+        transform: none;
+    }
+
+    label.imglbl img.image{
+        width: 40px;
+        height: 40px;
+        display: block;
+        position: absolute;
+        margin-left: 320px;
+        margin-top: -142px;
+        border-radius: 100px;
+        transform: translateX(-10px);
+
+    }
+
+    
+
+    #check:checked ~ aside{
+        transform: translateX(0);
+        
+    }
+
+    
+
+    aside {
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 0px;
+        background-color: dodgerblue;
+        margin-top: 1px;
+        transform: translateX(-100px);
+    }
+
+    aside section {
+        margin: 0px;
+        padding: 0px;
+        width: 80px;
+        height: 620px;
+        background-color: dodgerblue;
+    }
+
+    aside section img {
+        margin: 0px;
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        background-color: dodgerblue;
+        float: top;
+        position: relative;
+        top: 0%;
+        left: 70%;
+        margin-top: 15px;
+        margin-left: -40px;
+    }
+
+    aside section h2 {
+        font-family: arial;
+        text-align: center;
+        font-size: 10px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .stil {
+        font-size: 10px;
+        font-family: arial;
+        color: blue;
+        height: 250px;
+    }
+
+    .stil a {
+        margin: 10px;
+        padding: 3px;
+        text-decoration: none;
+        display: block;
+        color: white;
+        text-align: center;
+    }
+
+    div.icerik{
+        font-size: 12px;
+    }
+
+
+}
+
+@media (max-width:390px) {
+
+    header {
+        height: 100px;
+        width: 100%;
+    }
+
+    header h1 a {
+        font-size: 22px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 80px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0.5px;
+
+
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 60px;
+
+    }
+
+    nav.menu ul {
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 30px 17px;
+    }
+
+    nav.menu ul li a {
+        font-size: 15px;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    label.text {
+        display: none;
+    }
+
+    label.yermenu {
+        display: flex;
+        text-align: center;
+        margin-left: 190px;
+        background-color: dodgerblue;
+        color: #fff;
+        height: 20px;
+    }
+
+    label.yermenu a {
+
+        font-size: 12px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 10px;
+        background-color: dodgerblue;
+        font-weight: 900;
+    }
+
+    input {
+        display: block;
+        visibility: hidden;
+        position: absolute;
+        margin-left: 240px;
+        width: 8px;
+        height: 8px;
+        margin-top: -120px;
+        transform: none;
+    }
+
+    label.imglbl img.image{
+        width: 40px;
+        height: 40px;
+        display: block;
+        position: absolute;
+        margin-left: 350px;
+        margin-top: -142px;
+        border-radius: 100px;
+        transform: translateX(-10px);
+
+    }
+
+    
+
+    #check:checked ~ aside{
+        transform: translateX(0);
+        
+    }
+
+    
+
+    aside {
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 0px;
+        background-color: dodgerblue;
+        margin-top: 1px;
+        transform: translateX(-100px);
+    }
+
+    aside section {
+        margin: 0px;
+        padding: 0px;
+        width: 80px;
+        height: 620px;
+        background-color: dodgerblue;
+    }
+
+    aside section img {
+        margin: 0px;
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        background-color: dodgerblue;
+        float: top;
+        position: relative;
+        top: 0%;
+        left: 70%;
+        margin-top: 15px;
+        margin-left: -40px;
+    }
+
+    aside section h2 {
+        font-family: arial;
+        text-align: center;
+        font-size: 10px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .stil {
+        font-size: 10px;
+        font-family: arial;
+        color: blue;
+        height: 250px;
+    }
+
+    .stil a {
+        margin: 10px;
+        padding: 3px;
+        text-decoration: none;
+        display: block;
+        color: white;
+        text-align: center;
+    }
+
+
+
+
+}
+
+@media (max-width:376px) {
+
+    header {
+        height: 100px;
+        width: 100%;
+    }
+
+    header h1 a {
+        font-size: 22px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 80px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0.5px;
+
+
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 60px;
+
+    }
+
+    nav.menu ul {
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 15px 17px;
+    }
+
+    nav.menu ul li a {
+        font-size: 15px;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    label.text {
+        display: none;
+    }
+
+    label.yermenu {
+        display: flex;
+        text-align: center;
+        margin-left: 190px;
+        background-color: dodgerblue;
+        color: #fff;
+        height: 20px;
+    }
+
+    label.yermenu a {
+
+        font-size: 12px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 10px;
+        background-color: dodgerblue;
+        font-weight: 900;
+    }
+
+    input {
+        display: block;
+        visibility: hidden;
+        position: absolute;
+        margin-left: 240px;
+        width: 8px;
+        height: 8px;
+        margin-top: -120px;
+        transform: none;
+    }
+
+    label.imglbl img.image{
+        width: 40px;
+        height: 40px;
+        display: block;
+        position: absolute;
+        margin-left: 350px;
+        margin-top: -142px;
+        border-radius: 100px;
+        transform: translateX(-10px);
+
+    }
+
+    
+
+    #check:checked ~ aside{
+        transform: translateX(0);
+        
+    }
+
+    
+
+    aside {
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 0px;
+        background-color: dodgerblue;
+        margin-top: 1px;
+        transform: translateX(-100px);
+    }
+
+    aside section {
+        margin: 0px;
+        padding: 0px;
+        width: 80px;
+        height: 620px;
+        background-color: dodgerblue;
+    }
+
+    aside section img {
+        margin: 0px;
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        background-color: dodgerblue;
+        float: top;
+        position: relative;
+        top: 0%;
+        left: 70%;
+        margin-top: 15px;
+        margin-left: -40px;
+    }
+
+    aside section h2 {
+        font-family: arial;
+        text-align: center;
+        font-size: 10px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .stil {
+        font-size: 10px;
+        font-family: arial;
+        color: blue;
+        height: 250px;
+    }
+
+    .stil a {
+        margin: 10px;
+        padding: 3px;
+        text-decoration: none;
+        display: block;
+        color: white;
+        text-align: center;
+    }
+
+
+
+
+}
+
+@media (max-width:366px) {
+
+    header {
+        height: 100px;
+        width: 100%;
+    }
+
+    header h1 a {
+        font-size: 22px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 80px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0.5px;
+
+
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 60px;
+
+    }
+
+    nav.menu ul {
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 15px 12px;
+    }
+
+    nav.menu ul li a {
+        font-size: 15px;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    label.text {
+        display: none;
+    }
+
+    label.yermenu {
+        display: flex;
+        text-align: center;
+        margin-left: 190px;
+        background-color: dodgerblue;
+        color: #fff;
+        height: 20px;
+    }
+
+    label.yermenu a {
+
+        font-size: 12px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 10px;
+        background-color: dodgerblue;
+        font-weight: 900;
+    }
+
+    input {
+        display: block;
+        visibility: hidden;
+        position: absolute;
+        margin-left: 240px;
+        width: 8px;
+        height: 8px;
+        margin-top: -120px;
+        transform: none;
+    }
+
+    label.imglbl img.image{
+        width: 40px;
+        height: 40px;
+        display: block;
+        position: absolute;
+        margin-left: 350px;
+        margin-top: -142px;
+        border-radius: 100px;
+        transform: translateX(-10px);
+
+    }
+
+    
+
+    #check:checked ~ aside{
+        transform: translateX(0);
+        
+    }
+
+    
+
+    aside {
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 0px;
+        background-color: dodgerblue;
+        margin-top: 1px;
+        transform: translateX(-100px);
+    }
+
+    aside section {
+        margin: 0px;
+        padding: 0px;
+        width: 80px;
+        height: 620px;
+        background-color: dodgerblue;
+    }
+
+    aside section img {
+        margin: 0px;
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        background-color: dodgerblue;
+        float: top;
+        position: relative;
+        top: 0%;
+        left: 70%;
+        margin-top: 15px;
+        margin-left: -40px;
+    }
+
+    aside section h2 {
+        font-family: arial;
+        text-align: center;
+        font-size: 10px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .stil {
+        font-size: 10px;
+        font-family: arial;
+        color: blue;
+        height: 250px;
+    }
+
+    .stil a {
+        margin: 10px;
+        padding: 3px;
+        text-decoration: none;
+        display: block;
+        color: white;
+        text-align: center;
+    }
+
+
+
+
+}
+
+@media (max-width:330px) {
+
+    header {
+        height: 100px;
+        width: 100%;
+    }
+
+    header h1 a {
+        font-size: 22px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 80px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0.5px;
+
+
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 60px;
+
+    }
+
+    nav.menu ul {
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 15px 12px;
+    }
+
+    nav.menu ul li a {
+        font-size: 12px;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    label.text {
+        display: none;
+    }
+
+    label.yermenu {
+        display: flex;
+        text-align: center;
+        margin-left: 190px;
+        background-color: dodgerblue;
+        color: #fff;
+        height: 20px;
+    }
+
+    label.yermenu a {
+
+        font-size: 12px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 10px;
+        background-color: dodgerblue;
+        font-weight: 900;
+    }
+
+    input {
+        display: block;
+        visibility: hidden;
+        position: absolute;
+        margin-left: 240px;
+        width: 8px;
+        height: 8px;
+        margin-top: -120px;
+        transform: none;
+    }
+
+    label.imglbl img.image{
+        width: 40px;
+        height: 40px;
+        display: block;
+        position: absolute;
+        margin-left: 350px;
+        margin-top: -142px;
+        border-radius: 100px;
+        transform: translateX(-10px);
+
+    }
+
+    
+
+    #check:checked ~ aside{
+        transform: translateX(0);
+        
+    }
+
+    
+
+    aside {
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 0px;
+        background-color: dodgerblue;
+        margin-top: 1px;
+        transform: translateX(-100px);
+    }
+
+    aside section {
+        margin: 0px;
+        padding: 0px;
+        width: 80px;
+        height: 620px;
+        background-color: dodgerblue;
+    }
+
+    aside section img {
+        margin: 0px;
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        background-color: dodgerblue;
+        float: top;
+        position: relative;
+        top: 0%;
+        left: 70%;
+        margin-top: 15px;
+        margin-left: -40px;
+    }
+
+    aside section h2 {
+        font-family: arial;
+        text-align: center;
+        font-size: 10px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .stil {
+        font-size: 10px;
+        font-family: arial;
+        color: blue;
+        height: 250px;
+    }
+
+    .stil a {
+        margin: 10px;
+        padding: 3px;
+        text-decoration: none;
+        display: block;
+        color: white;
+        text-align: center;
+    }
+
+
+
+
+}
+@media (max-width:320px) {
+
+    header {
+        height: 100px;
+        width: 100%;
+    }
+
+    header h1 a {
+        font-size: 20px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 80px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0.5px;
+
+
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 60px;
+
+    }
+
+    nav.menu ul {
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 15px 12px;
+    }
+
+    nav.menu ul li a {
+        font-size: 12px;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    label.text {
+        display: none;
+    }
+
+    label.yermenu {
+        display: flex;
+        text-align: center;
+        margin-left: 137px;
+        background-color: dodgerblue;
+        color: #fff;
+        height: 20px;
+    }
+
+    label.yermenu a {
+
+        font-size: 12px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 10px;
+        background-color: dodgerblue;
+        font-weight: 900;
+    }
+
+    input {
+        display: block;
+        visibility: hidden;
+        position: absolute;
+        margin-left: 240px;
+        width: 8px;
+        height: 8px;
+        margin-top: -120px;
+        transform: none;
+    }
+
+    label.imglbl img.image{
+        width: 40px;
+        height: 40px;
+        display: block;
+        position: absolute;
+        margin-left: 250px;
+        margin-top: -142px;
+        border-radius: 100px;
+        transform: translateX(-10px);
+
+    }
+
+    
+
+    #check:checked ~ aside{
+        transform: translateX(0);
+        
+    }
+
+    
+
+    aside {
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 0px;
+        background-color: dodgerblue;
+        margin-top: 1px;
+        transform: translateX(-100px);
+    }
+
+    aside section {
+        margin: 0px;
+        padding: 0px;
+        width: 80px;
+        height: 620px;
+        background-color: dodgerblue;
+    }
+
+    aside section img {
+        margin: 0px;
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        background-color: dodgerblue;
+        float: top;
+        position: relative;
+        top: 0%;
+        left: 70%;
+        margin-top: 15px;
+        margin-left: -40px;
+    }
+
+    aside section h2 {
+        font-family: arial;
+        text-align: center;
+        font-size: 10px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .stil {
+        font-size: 10px;
+        font-family: arial;
+        color: blue;
+        height: 250px;
+    }
+
+    .stil a {
+        margin: 10px;
+        padding: 3px;
+        text-decoration: none;
+        display: block;
+        color: white;
+        text-align: center;
+    }
+
+
+
+
+}
+
+@media (max-width:304px) {
+
+    header {
+        height: 100px;
+        width: 100%;
+    }
+
+    header h1 a {
+        font-size: 20px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 80px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0.5px;
+
+
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 60px;
+
+    }
+
+    nav.menu ul {
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 20px 5px;
+    }
+
+    nav.menu ul li a {
+        font-size: 8px;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    label.text {
+        display: none;
+    }
+
+    label.yermenu {
+        display: flex;
+        text-align: center;
+        margin-left: 137px;
+        background-color: dodgerblue;
+        color: #fff;
+        height: 20px;
+    }
+
+    label.yermenu a {
+
+        font-size: 12px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 10px;
+        background-color: dodgerblue;
+        font-weight: 900;
+    }
+
+    input {
+        display: block;
+        visibility: hidden;
+        position: absolute;
+        margin-left: 240px;
+        width: 8px;
+        height: 8px;
+        margin-top: -120px;
+        transform: none;
+    }
+
+    label.imglbl img.image{
+        width: 40px;
+        height: 40px;
+        display: block;
+        position: absolute;
+        margin-left: 250px;
+        margin-top: -142px;
+        border-radius: 100px;
+        transform: translateX(-10px);
+
+    }
+
+    
+
+    #check:checked ~ aside{
+        transform: translateX(0);
+        
+    }
+
+    
+
+    aside {
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 0px;
+        background-color: dodgerblue;
+        margin-top: 1px;
+        transform: translateX(-100px);
+    }
+
+    aside section {
+        margin: 0px;
+        padding: 0px;
+        width: 80px;
+        height: 620px;
+        background-color: dodgerblue;
+    }
+
+    aside section img {
+        margin: 0px;
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        background-color: dodgerblue;
+        float: top;
+        position: relative;
+        top: 0%;
+        left: 70%;
+        margin-top: 15px;
+        margin-left: -40px;
+    }
+
+    aside section h2 {
+        font-family: arial;
+        text-align: center;
+        font-size: 10px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .stil {
+        font-size: 10px;
+        font-family: arial;
+        color: blue;
+        height: 250px;
+    }
+
+    .stil a {
+        margin: 10px;
+        padding: 3px;
+        text-decoration: none;
+        display: block;
+        color: white;
+        text-align: center;
+    }
+
+
+
+
+}
+
+@media (max-width:269px) {
+
+    header {
+        height: 100px;
+        width: 100%;
+    }
+
+    header h1 a {
+        font-size: 20px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 80px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0.5px;
+
+
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 60px;
+
+    }
+
+    nav.menu ul {
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 20px 4px;
+    }
+
+    nav.menu ul li a {
+        font-size: 8px;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    label.text {
+        display: none;
+    }
+
+    label.yermenu {
+        display: flex;
+        text-align: center;
+        margin-left: 137px;
+        background-color: dodgerblue;
+        color: #fff;
+        height: 20px;
+    }
+
+    label.yermenu a {
+
+        font-size: 12px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 10px;
+        background-color: dodgerblue;
+        font-weight: 900;
+    }
+
+    input {
+        display: block;
+        visibility: hidden;
+        position: absolute;
+        margin-left: 240px;
+        width: 8px;
+        height: 8px;
+        margin-top: -120px;
+        transform: none;
+    }
+
+    label.imglbl img.image{
+        width: 40px;
+        height: 40px;
+        display: block;
+        position: absolute;
+        margin-left: 250px;
+        margin-top: -142px;
+        border-radius: 100px;
+        transform: translateX(-10px);
+
+    }
+
+    
+
+    #check:checked ~ aside{
+        transform: translateX(0);
+        
+    }
+
+    
+
+    aside {
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 0px;
+        background-color: dodgerblue;
+        margin-top: 1px;
+        transform: translateX(-100px);
+    }
+
+    aside section {
+        margin: 0px;
+        padding: 0px;
+        width: 80px;
+        height: 620px;
+        background-color: dodgerblue;
+    }
+
+    aside section img {
+        margin: 0px;
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        background-color: dodgerblue;
+        float: top;
+        position: relative;
+        top: 0%;
+        left: 70%;
+        margin-top: 15px;
+        margin-left: -40px;
+    }
+
+    aside section h2 {
+        font-family: arial;
+        text-align: center;
+        font-size: 10px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .stil {
+        font-size: 10px;
+        font-family: arial;
+        color: blue;
+        height: 250px;
+    }
+
+    .stil a {
+        margin: 10px;
+        padding: 3px;
+        text-decoration: none;
+        display: block;
+        color: white;
+        text-align: center;
+    }
+
+
+
+
+}
+
+
+@media (max-width:257px) {
+
+    header {
+        height: 100px;
+        width: 100%;
+    }
+
+    header h1 a {
+        font-size: 20px;
+        margin-top: 20px;
+        position: relative;
+        line-height: 80px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0.5px;
+
+
+    }
+
+    nav.menu {
+        width: 100%;
+        height: 60px;
+
+    }
+
+    nav.menu ul {
+        width: 100%;
+
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        margin: 20px 2px;
+    }
+
+    nav.menu ul li a {
+        font-size: 0.5px;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    label.text {
+        display: none;
+    }
+
+    label.yermenu {
+        display: flex;
+        text-align: center;
+        margin-left: 54px;
+        background-color: dodgerblue;
+        color: #fff;
+        height: 20px;
+    }
+
+    label.yermenu a {
+
+        font-size: 12px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 10px;
+        background-color: dodgerblue;
+        font-weight: 900;
+    }
+
+    input {
+        display: block;
+        visibility: hidden;
+        position: absolute;
+        margin-left: 240px;
+        width: 8px;
+        height: 8px;
+        margin-top: -120px;
+        transform: none;
+    }
+
+    label.imglbl img.image{
+        width: 40px;
+        height: 40px;
+        display: block;
+        position: absolute;
+        margin-left: 250px;
+        margin-top: -142px;
+        border-radius: 100px;
+        transform: translateX(-10px);
+
+    }
+
+    
+
+    #check:checked ~ aside{
+        transform: translateX(0);
+        
+    }
+
+    
+
+    aside {
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 0px;
+        background-color: dodgerblue;
+        margin-top: 1px;
+        transform: translateX(-100px);
+    }
+
+    aside section {
+        margin: 0px;
+        padding: 0px;
+        width: 80px;
+        height: 620px;
+        background-color: dodgerblue;
+    }
+
+    aside section img {
+        margin: 0px;
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        background-color: dodgerblue;
+        float: top;
+        position: relative;
+        top: 0%;
+        left: 70%;
+        margin-top: 15px;
+        margin-left: -40px;
+    }
+
+    aside section h2 {
+        font-family: arial;
+        text-align: center;
+        font-size: 10px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .stil {
+        font-size: 10px;
+        font-family: arial;
+        color: blue;
+        height: 250px;
+    }
+
+    .stil a {
+        margin: 10px;
+        padding: 3px;
+        text-decoration: none;
+        display: block;
+        color: white;
+        text-align: center;
+    }
+
+
+
+
+}

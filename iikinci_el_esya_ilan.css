@@ -1,0 +1,1154 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+
+    /**/
+    --text-color: #fff;
+    --back-color: dodgerblue;
+
+
+    /*TRANSİTİON*/
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.4s ease;
+    --tran-05: all 0.5s ease;
+
+}
+
+.wrapper {
+    width: 100%;
+    margin-top: 0;
+}
+
+header.baslik {
+    width: 100% !important;
+    background-color: dodgerblue !important;
+    height: 150px !important;
+    margin-left: 0px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    text-align: center !important;
+    align-items: center !important;
+
+}
+
+header.baslik h1 {
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+
+header.baslik h1 a {
+    font-size: 50px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: flex !important;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    
+}
+
+
+
+.navbar {
+    background-color: dodgerblue;
+    height: 70px;
+    width: 100%;
+    margin-top: -5px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap
+    
+
+}
+
+
+
+.navbar ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    
+}
+
+.navbar ul li a {
+    width: max-content;
+    line-height: 70px;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+
+
+.navbar ul li a:hover {
+    background-color: white;
+    color: dodgerblue;
+    transition-duration: 0.5s;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.logo-part {
+    width: 70px;
+    height: 70px;
+   
+
+
+}
+
+.logo-part img {
+    width: 70px;
+    height: 70px;
+}
+label.baslik {
+    margin-left: 20px;
+}
+
+
+
+article.alan {
+    padding-left: 0px;
+    width: 100%;
+    height: max-content;
+}
+
+.ilan-kutu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ilan-detay {
+    width: 600px;
+    height: max-content;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.img-box {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.img-box img {
+    width: 80%;
+    height: 80%;
+}
+
+.ilan-detay {
+    font-size: 15px;
+}
+
+.ilan-detay label{
+    padding-left: 20px;
+}
+
+.ilan-detay h1 {
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: max-content;
+    color: #666;
+}
+
+.ilan-detay p {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    font-size: 15px;
+    color: #666;
+}
+
+.ilan-detay i label {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.ilan-detay p.fiyat {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+
+}
+
+.buton-kısım {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.paylas {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paylas input.btn {
+    width: 200px;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dodgerblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid dodgerblue;
+    outline: none;
+    color: #fff;
+
+}
+
+.paylas i {
+    width: max-content;
+    height: 100%;
+    background-color: dodgerblue;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: -40px;
+}
+
+.mesaj i {
+    width: max-content;
+    height: 100%;
+    background-color: dodgerblue;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: -40px;
+}
+
+.mesaj {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mesaj input.btn {
+    width: 200px;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dodgerblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid dodgerblue;
+    outline: none;
+    color: #fff;
+
+}
+
+.ilan-detay i label{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+}
+
+
+
+@media (max-width:1340px) {
+
+
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 20px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 17px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+    .sidebar li {
+        height: 50px;
+        background-color: dodgerblue;
+        margin-top: 20px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+
+    }
+
+    .sidebar .sidemenu {
+        margin-top: 10px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+}
+
+@media (max-width:1240px) {
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 15px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 17px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    header.baslik {
+        width: 100%;
+        background-color: dodgerblue;
+        height: 90px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 a {
+        font-size: 40px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+   
+
+    .logo-part {
+        width: 60px;
+        height: 60px;
+        
+       
+    
+    
+    }
+    
+    .logo-part img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+
+@media (max-width:1140px) {
+
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 10px;
+       
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+
+}
+
+
+@media (max-width:920px) {
+
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+       
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+
+}
+
+@media(max-width:870px){
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 0px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    .ilan-detay {
+        width: 500px;
+        height: max-content;
+        
+        border-radius: 10px;
+    }
+
+}
+
+@media(max-width:768px){
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 10px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    label.text{
+        display: none;
+    }
+
+   
+ 
+
+}
+
+@media(max-width:690px){
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 0px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 13px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+
+    label.text{
+        display: none;
+    }
+
+    .ilan-detay {
+        width: 300px;
+        height: max-content;
+        
+        border-radius: 10px;
+    }
+
+    .img-box {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .img-box img {
+        width: 80%;
+        height: 100%;
+    }
+
+    .paylas input.btn {
+        width: 120px;
+        height: 100%;
+        display: inline-flex;
+        justify-content: left;
+        align-items: center;
+        background-color: dodgerblue;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        border: 2px solid dodgerblue;
+        outline: none;
+        color: #fff;
+        font-size: 12px;
+    
+    }
+
+    .mesaj input.btn {
+        width: 120px;
+        height: 100%;
+        display: inline-flex;
+        justify-content: left;
+        align-items: center;
+        background-color: dodgerblue;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        border: 2px solid dodgerblue;
+        outline: none;
+        color: #fff;
+        font-size: 12px;
+    
+    }
+    
+   
+}
+
+@media(max-width:600px){
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 10px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+    header.baslik {
+        width: 100%;
+        background-color: dodgerblue;
+        height: 90px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 a {
+        font-size: 40px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    label.text{
+        display: none;
+    }
+
+    .logo-part {
+        width: 60px;
+        height: 60px;
+        
+       
+    
+    
+    }
+    
+    .logo-part img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media(max-width:500px){
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 10px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    label.text{
+        display: none;
+    }
+
+
+
+}
+
+@media (max-width:430px) {
+
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 5px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 12px;
+       
+
+    }
+
+    header.baslik {
+        width: 100%;
+        background-color: dodgerblue;
+        height: 90px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 a {
+        font-size: 25px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    label.text{
+        display: none;
+    }
+
+    .logo-part {
+        width: 45px;
+        height: 45px;
+        
+       
+    
+    
+    }
+    
+    .logo-part img {
+        width: 100%;
+        height: 100%;
+    }
+   
+
+
+    article.alan {
+        margin-left: 0px;
+        width: 100%;
+        height: max-content;
+    }
+
+
+
+    .ilan-detay {
+        width: 270px;
+        height: max-content;
+        
+        border-radius: 10px;
+        
+    }
+
+    .ilan-detay i label {
+        width: 100%;
+        height: 100%;
+        padding-top: 10px;
+        font-size: 12px;
+    }
+    
+    .mesaj input.btn {
+        width: 100px;
+        height: 100%;
+        display: inline-flex;
+        justify-content: left;
+        align-items: center;
+        background-color: dodgerblue;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        border: 2px solid dodgerblue;
+        padding-right: 23px;
+        outline: none;
+        color: #fff;
+        font-size: 10px;
+
+    }
+
+    .paylas input.btn {
+        width: 100px;
+        height: 100%;
+        display: inline-flex;
+        justify-content: left;
+        align-items: center;
+        background-color: dodgerblue;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        border: 2px solid dodgerblue;
+        padding-right: 23px;
+        outline: none;
+        color: #fff;
+        font-size: 10px;
+    }
+
+    .paylas i {
+        width: max-content;
+        height: 100%;
+        background-color: dodgerblue;
+        color: #fff;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: -30px;
+        font-size: 10px;
+    }
+
+    .mesaj i {
+        width: max-content;
+        height: 100%;
+        background-color: dodgerblue;
+        color: #fff;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: -30px;
+        font-size: 10px;
+    }
+
+    .ilan-detay h1 {
+        width: 100%;
+        height: max-content;
+        font-size: 17px;
+
+    }
+
+    .img-box {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-box img {
+        width: 80%;
+        height: 100%;
+
+    }
+
+    .ilan-detay i label{
+        width: 100%;
+        height: 100%;
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width:375px) {
+
+    .navbar li {
+        display: inline-flex !important;
+        flex-wrap: wrap !important;
+        flex-direction: row !important;
+        text-align: center !important;
+        
+    }
+
+    .navbar ul li a {
+        width: max-content !important;
+        line-height: 70px !important;
+        color: #fff !important;
+        font-size: 10px !important;
+       
+
+    }
+
+    header.baslik {
+        width: 100% !important;
+        background-color: dodgerblue;
+        height: 70px !important;
+        margin-left: 0px !important;
+        display: flex !important;
+        flex-direction: row !important;
+        text-align: center !important;
+        align-items: center !important;
+    
+    }
+    
+    header.baslik h1 {
+        text-align: center !important;
+        justify-content: center !important;
+        align-items: center !important;
+    
+    }
+    
+    header.baslik h1 a {
+        font-size: 20px !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        text-decoration: none !important;
+        display: flex !important;
+        color: #fff !important;
+        text-transform: uppercase !important;
+        font-family: Arial, Helvetica, sans-serif !important;
+        
+    }
+    
+    .logo-part {
+        width: 35px !important;
+        height: 35px !important;
+        
+       
+    
+    
+    }
+    
+    .logo-part img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+   
+
+    article.alan {
+        margin-left: 0px;
+        width: 100%;
+        height: max-content;
+    }
+
+    label.baslik {
+        margin-left: 20px !important;
+    }
+
+
+    .ilan-detay {
+        width: 200px;
+        height: max-content;
+        
+        border-radius: 10px;
+    }
+
+    .mesaj input.btn {
+        width: 80px;
+        height: 100%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        background-color: dodgerblue;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        border: 2px solid dodgerblue;
+        outline: none;
+        color: #fff;
+        font-size: 8px;
+
+    }
+
+    .paylas input.btn {
+        width: 80px;
+        height: 100%;
+        display: inline-flex;
+        justify-content: left;
+        align-items: center;
+        background-color: dodgerblue;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        border: 2px solid dodgerblue;
+        outline: none;
+        color: #fff;
+        font-size: 8px;
+    }
+
+    .mesaj input.btn {
+        width: 80px;
+        height: 100%;
+        display: inline-flex;
+        justify-content: left;
+        align-items: center;
+        background-color: dodgerblue;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        border: 2px solid dodgerblue;
+        outline: none;
+        color: #fff;
+        font-size: 8px;
+    }
+
+    .paylas i {
+        width: max-content;
+        height: 100%;
+        background-color: dodgerblue;
+        color: #fff;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: -20px;
+        font-size: 10px;
+    }
+
+    .mesaj i {
+        width: max-content;
+        height: 100%;
+        background-color: dodgerblue;
+        color: #fff;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: -20px;
+        font-size: 10px;
+    }
+
+    .ilan-detay h1 {
+        width: 100%;
+        height: max-content;
+        font-size: 17px;
+
+    }
+
+    .img-box {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-box img {
+        width: 80%;
+        height: 100%;
+
+    }
+
+
+}
+
+@media (max-width:336px) {
+
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 0px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 9px;
+       padding-left: 10px;
+       padding-right: 10px;
+
+    }
+
+    header.baslik {
+        width: 100%;
+        background-color: dodgerblue;
+        height: 70px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    header.baslik h1 a {
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    
+    .logo-part {
+        width: 35px;
+        height: 35px;
+        
+       
+    
+    
+    }
+    
+    .logo-part img {
+        width: 100%;
+        height: 100%;
+    }
+   
+    article.alan {
+        margin-left: 0px;
+        width: 100%;
+        height: max-content;
+    }
+
+    label.baslik {
+        margin-left: 20px;
+    }
+
+
+
+
+}

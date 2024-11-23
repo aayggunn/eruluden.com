@@ -1,0 +1,51 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ilan h5{
+    width: 100%;
+    height: max-content;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #666;
+}
+
+.ilan p{
+    width: 100%;
+    height: max-content;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ilan i{
+    width: 100%;
+    height: max-content;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media (max-width:426px){
+    .ilan h5{
+        width: 100%;
+        height: max-content;
+        font-size: 17px;
+    }
+
+    .ilan p{
+        width: 100%;
+        height: max-content;
+        font-size: 12px;
+    }
+
+    .ilan i{
+        width: 100%;
+        height: max-content;
+        font-size: 12px;
+    }
+}
+

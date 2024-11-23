@@ -1,0 +1,1503 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+
+    /**/
+    --text-color: #fff;
+    --back-color: dodgerblue;
+
+
+    /*TRANSİTİON*/
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.4s ease;
+    --tran-05: all 0.5s ease;
+
+}
+
+.wrapper {
+    width: 100%;
+
+}
+
+header.baslik {
+    width: 100%;
+    background-color: dodgerblue;
+    height: 150px;
+    margin-left: 0px;
+
+}
+
+header.baslik h1 {
+    text-align: left;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+header.baslik h1 a {
+    font-size: 50px;
+    margin-top: 50px;
+    text-decoration: none;
+    line-height: 150px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 70px;
+}
+
+
+
+.navbar {
+    background-color: dodgerblue;
+    height: 70px;
+    width: 100%;
+    margin-top: 0px;
+
+}
+
+
+
+.navbar ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    padding-inline: 50px;
+}
+
+.navbar ul li a {
+    width: max-content;
+    line-height: 70px;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+
+
+.navbar ul li a:hover {
+    background-color: white;
+    color: dodgerblue;
+    transition-duration: 0.5s;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+.sidebar {
+    position: fixed;
+    height: 100%;
+    left: 0;
+    background-color: dodgerblue;
+    margin-top: -250px;
+    width: 250px;
+    padding-bottom: 15px;
+    transition-duration: 0.5s;
+}
+
+
+.sidebar.close {
+    width: 70px;
+    height: max-content;
+    position: fixed;
+    margin-top: -250px;
+}
+
+.sidebar.close .text {
+    opacity: 0;
+}
+
+.sidebar header.sider {
+
+    margin-top: 45px;
+}
+
+.sidebar .image-text img {
+    width: 60px;
+    height: 60px;
+    border-radius: 80px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sidebar header.sider .image-text {
+    display: flex;
+    align-items: center;
+
+}
+
+.sidebar .text {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 40px;
+    color: #fff;
+    transition-duration: 0.5s;
+
+}
+
+.sidebar .image {
+    min-width: 60px;
+    display: flex;
+    align-items: center;
+}
+
+header.sidebar .image-text .header-text {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.sidebar li {
+    height: 50px;
+    background-color: dodgerblue;
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.sidebar li .icon {
+    font-size: 16px;
+    min-width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sidebar li .icon,
+.sidebar li .text {
+    color: var(--text-color);
+}
+
+.sidebar li a {
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    width: 100%;
+    transition-duration: 0.5s;
+
+}
+
+.sidebar li a:hover {
+    background: var(--text-color);
+    transition-duration: 0.5s ease;
+
+}
+
+
+
+.sidebar li a:hover .icon,
+.sidebar li a:hover .text {
+    color: dodgerblue;
+    transition-duration: 0.5s;
+    border-radius: 30px;
+    font-style: italic;
+}
+
+.sidebar .sidemenu {
+    margin-top: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.logo-part {
+    width: 70px;
+    height: 70px;
+    background-color: aqua;
+    margin-top: 70px;
+
+
+}
+
+.logo-part img {
+    width: 70px;
+    height: 70px;
+}
+
+label.baslik {
+    margin-left: 20px;
+}
+
+article.alan {
+    padding-left: 0px;
+    width: 100%;
+    height: max-content;
+}
+
+.sil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.duzen{
+    width: 400px;
+    height: max-content;
+    margin-top: 20px;
+}
+
+.buton {
+    margin-top: 30px;
+    margin-left: 0px;
+    width: 80px;
+    height: 20px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    color: #fff;
+    background-color: dodgerblue;
+    font-size: 15px;
+    border-radius: 30px;
+    outline: none;
+}
+
+.buton input {
+    padding-right: 6px;
+    border: none;
+    color: #fff;
+    background-color: dodgerblue;
+    font-size: 15px;
+    border-radius: 30px;
+    outline: none;
+    align-items: center;
+    text-align: center;
+}
+
+.mesaj{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    background-color: dodgerblue;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+@media (max-width:1440px) {
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 40px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+   
+}
+
+@media (max-width:1340px) {
+
+
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 30px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    .sidebar li {
+        height: 50px;
+        background-color: dodgerblue;
+        margin-top: 20px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    
+    }
+
+    .sidebar .sidemenu {
+        margin-top: 10px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+  
+}
+
+@media (max-width:1240px) {
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 20px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 17px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+   
+}
+
+@media (max-width:1140px) {
+
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 10px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+
+  
+}
+
+
+@media (max-width:1024px) {
+
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 10px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+   
+}
+
+@media(max-width:870px){
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 10px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .duyuru{
+        width: 500px;
+        height: max-content;
+        border: 2px solid dodgerblue;
+        margin-top: 20px;
+    }
+
+}
+
+@media(max-width:768px){
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 30px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    label.text{
+        display: none;
+    }
+
+ 
+ 
+
+}
+
+@media(max-width:690px){
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 20px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    label.text{
+        display: none;
+    }
+
+
+    .duzen{
+        width: 270px;
+        height: max-content;
+        margin-top: 20px;
+    }
+
+}
+
+@media(max-width:600px){
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 10px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    .sidebar {
+        position: fixed;
+        height: 100%;
+        left: 0;
+        background-color: dodgerblue;
+        margin-top: -250px;
+        width: 250px;
+        padding-bottom: 15px;
+        transition-duration: 0.5s;
+    }
+    
+    
+    .sidebar.close {
+        width: 50px;
+        height: max-content;
+        position: fixed;
+        margin-top: -250px;
+    }
+
+    .sidebar .image-text img {
+        width: 40px;
+        height: 40px;
+        border-radius: 80px;
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 0px;
+    }
+
+    .sidebar li {
+        height: 50px;
+        background-color: dodgerblue;
+        margin-top: 30px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+    
+    }
+    
+    .sidebar li .icon {
+        font-size: 14px;
+        min-width: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    label.text{
+        display: none;
+    }
+
+    .logo-part {
+        width: 50px;
+        height: 50px;
+        background-color: aqua;
+        margin-top: 80px;
+    
+    
+    }
+    
+    .logo-part img {
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+@media(max-width:500px){
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-inline: 10px;
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 70px;
+        color: #fff;
+        font-size: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    label.text{
+        display: none;
+    }
+
+    .duzen{
+        width: 270px;
+        height: max-content;
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width:426px) {
+
+    .wrapper {
+        width: 100%;
+
+    }
+
+    header.baslik {
+        width: 100%;
+        background-color: dodgerblue;
+        height: 70px;
+        margin-left: 0px;
+
+    }
+
+    header.baslik h1 {
+        text-align: left;
+        padding-left: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    header.baslik h1 a {
+        font-size: 20px;
+        margin-top: 50px;
+        text-decoration: none;
+        line-height: 70px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 50px;
+    }
+
+
+
+    .navbar {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: dodgerblue;
+        height: 50px;
+        width: 100%;
+        margin-top: 0px;
+
+    }
+
+
+
+    .navbar ul {
+        padding: 0;
+        margin: 0;
+        padding-left: 30px;
+        
+    }
+
+    .navbar li {
+        display: inline-flex;
+        
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        padding-inline: 15px;
+
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 50px;
+        color: #fff;
+        font-size: 12px;
+
+
+    }
+
+
+
+    .navbar ul li a:hover {
+        background-color: white;
+        color: dodgerblue;
+        transition-duration: 0.5s;
+        border-radius: 50px;
+    }
+    .sidebar {
+        position: fixed;
+        height: 100%;
+        left: 0;
+        background-color: dodgerblue;
+        margin-top: 0px;
+        width: 25px;
+        padding-left: 0px;
+        transition-duration: 0.5s;
+    }
+
+
+    .sidebar.close {
+        width: 45px;
+        height: 100%;
+        position: fixed;
+        margin-top: -130px;
+    }
+
+    .sidebar.close .text {
+        opacity: 0;
+    }
+
+    .sidebar header.sider {
+        position: relative;
+        margin-top: 0px;
+
+    }
+
+    .sidebar .image-text img {
+        width: 30px;
+        height: 30px;
+        border-radius: 80px;
+        margin-top: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .sidebar header.sider .image-text {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .sidebar .text {
+        display: none;
+
+    }
+
+    .sidebar .image {
+        min-width: 60px;
+        display: flex;
+        align-items: center;
+    }
+
+    header.sidebar .image-text .header-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-text .name {
+        font-weight: 600;
+    }
+
+    .header-text .username {
+        margin-top: 2px;
+    }
+
+    .header-text .about {
+        margin-top: 2px;
+    }
+
+    .sidebar header.sider .toggle {
+        display: none;
+    }
+
+    .sidebar li {
+        height: 50px;
+        background-color: dodgerblue;
+        margin-top: 30px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0px;
+
+    }
+
+    .sidebar li .icon {
+        font-size: 10px;
+        min-width: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .sidebar li .icon,
+    .sidebar li .text {
+        color: var(--text-color);
+    }
+
+    .sidebar li a {
+        text-decoration: none;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        width: 100%;
+        transition-duration: 0.5s;
+
+    }
+
+    .sidebar li a:hover {
+        background: var(--text-color);
+        transition-duration: 0.5s ease;
+
+    }
+
+
+
+    .sidebar li a:hover .icon,
+    .sidebar li a:hover .text {
+        color: dodgerblue;
+        transition-duration: 0.5s;
+        border-radius: 30px;
+        font-style: italic;
+    }
+
+    .sidebar .sidemenu {
+        margin-top: 15px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    .logo-part {
+        width: 35px;
+        height: 35px;
+        margin-top: 28px;
+        margin-left: 2px;
+
+
+    }
+
+    .logo-part img {
+        width: 35px;
+        height: 35px;
+    }
+
+    article.alan {
+        margin-left: 0px;
+        width: 100%;
+        height: max-content;
+    }
+
+    label.baslik {
+        margin-left: 20px;
+    }
+
+    .buton {
+        margin-top: 30px;
+        margin-left: 0px;
+        width: 80px;
+        height: 20px;
+        padding: 10px 10px 5px 10px;
+        border: none;
+        color: #fff;
+        background-color: dodgerblue;
+        font-size: 12px;
+        border-radius: 30px;
+        outline: none;
+    }
+
+    
+    
+    .buton input {
+        padding-right: 6px;
+        border: none;
+        color: #fff;
+        background-color: dodgerblue;
+        font-size: 12px;
+        border-radius: 30px;
+        outline: none;
+        align-items: center;
+        text-align: center;
+    }
+
+    .olustur{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .duzen{
+        width: 270px;
+        height: max-content;
+        margin-top: 20px;
+        padding-left: 40px;
+    }
+    
+
+    
+    .mesaj{
+        width: 100%;
+        height: 30px;
+        font-size: 15px;
+        background-color: dodgerblue;
+        color: #fff;
+        margin-top: 20px;
+        border-radius: 10px;
+        text-align: center;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width:375px) {
+
+    .wrapper {
+        width: 100%;
+
+    }
+
+    header.baslik {
+        width: 100%;
+        background-color: dodgerblue;
+        height: 70px;
+        margin-left: 0px;
+
+    }
+
+    header.baslik h1 {
+        text-align: left;
+        padding-left: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    header.baslik h1 a {
+        font-size: 20px;
+        margin-top: 50px;
+        text-decoration: none;
+        line-height: 70px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 50px;
+    }
+
+
+
+    .navbar {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: dodgerblue;
+        height: 50px;
+        width: 100%;
+        margin-top: 0px;
+
+    }
+
+
+
+    .navbar ul {
+        padding: 0;
+        margin: 0;
+        padding-left: 50px;
+        
+    }
+
+    .navbar li {
+        display: inline-flex;
+        
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        padding-inline: 10px;
+
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 50px;
+        color: #fff;
+        font-size: 12px;
+
+
+    }
+
+
+
+    .navbar ul li a:hover {
+        background-color: white;
+        color: dodgerblue;
+        transition-duration: 0.5s;
+        border-radius: 50px;
+    }
+
+
+    label.text {
+        display: none;
+    }
+
+    .kutular {
+        width: 260px;
+        height: max-content;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 30px;
+
+    }
+
+    .sidebar {
+        position: fixed;
+        height: 100%;
+        left: 0;
+        background-color: dodgerblue;
+        margin-top: 0px;
+        width: 25px;
+        padding-left: 0px;
+        transition-duration: 0.5s;
+    }
+
+
+    .sidebar.close {
+        width: 45px;
+        height: max-content;
+        position: fixed;
+        margin-top: -130px;
+    }
+
+    .sidebar.close .text {
+        opacity: 0;
+    }
+
+    .sidebar header.sider {
+        position: relative;
+        margin-top: 0px;
+
+    }
+
+    .sidebar .image-text img {
+        width: 30px;
+        height: 30px;
+        border-radius: 80px;
+        margin-top: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .sidebar header.sider .image-text {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .sidebar .text {
+        display: none;
+
+    }
+
+    .sidebar .image {
+        min-width: 60px;
+        display: flex;
+        align-items: center;
+    }
+
+    header.sidebar .image-text .header-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-text .name {
+        font-weight: 600;
+    }
+
+    .header-text .username {
+        margin-top: 2px;
+    }
+
+    .header-text .about {
+        margin-top: 2px;
+    }
+
+    .sidebar header.sider .toggle {
+        display: none;
+    }
+
+    .sidebar li {
+        height: 50px;
+        background-color: dodgerblue;
+        margin-top: 12px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0px;
+
+    }
+
+    .sidebar li .icon {
+        font-size: 10px;
+        min-width: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .sidebar li .icon,
+    .sidebar li .text {
+        color: var(--text-color);
+    }
+
+    .sidebar li a {
+        text-decoration: none;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        width: 100%;
+        transition-duration: 0.5s;
+
+    }
+
+    .sidebar li a:hover {
+        background: var(--text-color);
+        transition-duration: 0.5s ease;
+
+    }
+
+
+
+    .sidebar li a:hover .icon,
+    .sidebar li a:hover .text {
+        color: dodgerblue;
+        transition-duration: 0.5s;
+        border-radius: 30px;
+        font-style: italic;
+    }
+
+    .sidebar .sidemenu {
+        margin-top: 20px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    .logo-part {
+        width: 35px;
+        height: 35px;
+        margin-top: 28px;
+        margin-left: 2px;
+
+
+    }
+
+    .logo-part img {
+        width: 35px;
+        height: 35px;
+    }
+
+    article.alan {
+        margin-left: 0px;
+        width: 100%;
+        height: max-content;
+    }
+
+    label.baslik {
+        margin-left: 20px;
+    }
+
+  
+    .sil{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .duzen{
+        width: 200px;
+        height: max-content;
+        margin-top: 20px;
+    }
+    
+
+    
+    .mesaj{
+        width: 100%;
+        height: 20px;
+        font-size: 10px;
+        background-color: dodgerblue;
+        color: #fff;
+        margin-top: 20px;
+        border-radius: 10px;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+
+}
+
+@media (max-width:335px) {
+
+    .wrapper {
+        width: 100%;
+
+    }
+
+    header.baslik {
+        width: 100%;
+        background-color: dodgerblue;
+        height: 70px;
+        margin-left: 0px;
+
+    }
+
+    header.baslik h1 {
+        text-align: left;
+        padding-left: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    header.baslik h1 a {
+        font-size: 20px;
+        margin-top: 50px;
+        text-decoration: none;
+        line-height: 70px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 50px;
+    }
+
+
+
+    .navbar {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: dodgerblue;
+        height: 50px;
+        width: 100%;
+        margin-top: 0px;
+
+    }
+
+
+
+    .navbar ul {
+        padding: 0;
+        margin: 0;
+        padding-left: 40px;
+        
+    }
+
+    .navbar li {
+        display: inline-flex;
+        
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        padding-inline: 10px;
+
+    }
+
+    .navbar ul li a {
+        width: max-content;
+        line-height: 50px;
+        color: #fff;
+        font-size: 10px;
+
+
+    }
+
+
+
+    .navbar ul li a:hover {
+        background-color: white;
+        color: dodgerblue;
+        transition-duration: 0.5s;
+        border-radius: 50px;
+    }
+
+
+
+
+    label.text {
+        display: none;
+    }
+
+    .kutular {
+        width: 230px;
+        height: max-content;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 30px;
+
+    }
+
+    .sidebar {
+        position: fixed;
+        height: 100%;
+        left: 0;
+        background-color: dodgerblue;
+        margin-top: 0px;
+        width: 25px;
+        padding-left: 0px;
+        transition-duration: 0.5s;
+    }
+
+
+    .sidebar.close {
+        width: 45px;
+        height: max-content;
+        position: fixed;
+        margin-top: -130px;
+    }
+
+    .sidebar.close .text {
+        opacity: 0;
+    }
+
+    .sidebar header.sider {
+        position: relative;
+        margin-top: 0px;
+
+    }
+
+    .sidebar .image-text img {
+        width: 30px;
+        height: 30px;
+        border-radius: 80px;
+        margin-top: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .sidebar header.sider .image-text {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .sidebar .text {
+        display: none;
+
+    }
+
+    .sidebar .image {
+        min-width: 60px;
+        display: flex;
+        align-items: center;
+    }
+
+    header.sidebar .image-text .header-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-text .name {
+        font-weight: 600;
+    }
+
+    .header-text .username {
+        margin-top: 2px;
+    }
+
+    .header-text .about {
+        margin-top: 2px;
+    }
+
+    .sidebar header.sider .toggle {
+        display: none;
+    }
+
+    .sidebar li {
+        height: 50px;
+        background-color: dodgerblue;
+        margin-top: 12px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0px;
+
+    }
+
+    .sidebar li .icon {
+        font-size: 10px;
+        min-width: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .sidebar li .icon,
+    .sidebar li .text {
+        color: var(--text-color);
+    }
+
+    .sidebar li a {
+        text-decoration: none;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        width: 100%;
+        transition-duration: 0.5s;
+
+    }
+
+    .sidebar li a:hover {
+        background: var(--text-color);
+        transition-duration: 0.5s ease;
+
+    }
+
+
+
+    .sidebar li a:hover .icon,
+    .sidebar li a:hover .text {
+        color: dodgerblue;
+        transition-duration: 0.5s;
+        border-radius: 30px;
+        font-style: italic;
+    }
+
+    .sidebar .sidemenu {
+        margin-top: 20px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .logo-part {
+        width: 35px;
+        height: 35px;
+        margin-top: 28px;
+        margin-left: 2px;
+
+
+    }
+
+    .logo-part img {
+        width: 35px;
+        height: 35px;
+    }
+
+    article.alan {
+        margin-left: 0px;
+        width: 100%;
+        height: max-content;
+    }
+
+    label.baslik {
+        margin-left: 20px;
+    }
+
+    
+
+
+}

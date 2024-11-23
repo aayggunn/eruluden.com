@@ -1,0 +1,91 @@
+article {
+    margin-left:0px;
+    width: 600px;
+    height: 100%;
+
+}
+
+.haber{
+    width: 100%;
+    height: 100%;
+   
+   
+}
+
+.haber img{
+  width: 500px;
+  height: 250px;
+  padding: 20px 20px 20px 20px;
+ 
+  
+
+}
+
+.haber h2{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+    color: #666;
+}
+
+.haber p{
+    font-size: 17px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.haber i{
+   padding: 5px 10px;
+   margin-top: 0px;
+}
+
+@media (max-width:426px){
+
+    article {
+        margin-left:0px;
+        width: 200px;
+        height: 100%;
+    
+    }
+    
+    .haber{
+        width: 100%;
+        height: 100%;
+        
+       
+    }
+    
+    .haber img{
+      width: 250px;
+      height: 150px;
+      padding: 0px 0px 0px 0px;
+    }
+    
+    .haber h2{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0px 0px;
+    }
+    
+    .haber p{
+        width: 100%;
+        height: 100%;
+        font-size: 12px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        
+        
+    }
+    
+    .haber i{
+       padding: 0px 10px;
+       margin-top: 0px;
+       font-size: 8px;
+    }
+}

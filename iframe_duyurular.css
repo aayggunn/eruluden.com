@@ -1,0 +1,111 @@
+* {
+   
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    margin-left:0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.duyuru-listesi {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #666;
+}
+
+.duyuru-listesi .resim {
+    width: 150px;
+    height: 100%;
+    
+    display: flex;
+    align-items: center; /* Yatayda ortala */
+    justify-content: center; /* Dikeyde ortala */
+}
+
+.duyuru-listesi .resim img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.duyuru-listesi .duyuru {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+
+
+.duyuru-listesi p {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    font-size: 17px;
+    margin: 0;
+    
+    border-bottom: 2px #fff solid;
+}
+
+
+.duyuru-listesi a{
+    color: #666;
+}
+.duyuru-listesi i{
+    color: #666;
+    justify-content: center;
+    font-size: 15px;
+   
+    
+}
+
+@media (max-width:426px){
+    
+
+
+    .duyuru-listesi .resim{
+        width: 80px;
+        height: 60px;
+        
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .duyuru-listesi p{
+        font-size: 12px;
+        margin-left: 0px;
+        
+       
+        
+
+    }
+
+    .duyuru-listesi .duyuru {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .duyuru-listesi i{
+        color: #666;
+        
+        font-size: 10px;
+        
+    }
+    
+
+}
